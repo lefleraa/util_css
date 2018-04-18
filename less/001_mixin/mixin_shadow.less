@@ -1,7 +1,14 @@
 .mixin_shadow() {
-  box-shadow: 3px 4px 15px fade(@color-black, 10%);
+  @value: 3px 4px 15px fade(@color-black, 10%);
+  -webkit-box-shadow: @value;
+  -moz-box-shadow:    @value;
+  -o-box-shadow:      @value;
+  box-shadow:         @value;
 }
 
 .mixin_box_shadow(@value) {
-  box-shadow: @value;
+  -webkit-box-shadow: @value;
+  -moz-box-shadow:    @value;
+  -o-box-shadow:      @value;
+  box-shadow:         @value;
 }

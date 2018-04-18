@@ -8859,7 +8859,13 @@ p {
   font-weight: 600;
   letter-spacing: 0.5px;
   border-width: 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
   border-radius: 3px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .btn.btn-primary {
@@ -9264,180 +9270,270 @@ p {
   color: #dde3ea !important;
 }
 .u_color_hover_primary {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_primary:hover {
   color: #73FE73 !important;
 }
 .u_color_hover_primary_dark {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_primary_dark:hover {
   color: #50fe50 !important;
 }
 .u_color_hover_primary_darker {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_primary_darker:hover {
   color: #27fd27 !important;
 }
 .u_color_hover_primary_darkest {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_primary_darkest:hover {
   color: #13fd13 !important;
 }
 .u_color_hover_secondary {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_secondary:hover {
   color: #22CEED !important;
 }
 .u_color_hover_secondary_dark {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_secondary_dark:hover {
   color: #12bbda !important;
 }
 .u_color_hover_secondary_darker {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_secondary_darker:hover {
   color: #0f9bb4 !important;
 }
 .u_color_hover_secondary_darkest {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_secondary_darkest:hover {
   color: #0d8aa1 !important;
 }
 .u_color_hover_tertiary {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_tertiary:hover {
   color: #BA72FA !important;
 }
 .u_color_hover_tertiary_dark {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_tertiary_dark:hover {
   color: #a950f9 !important;
 }
 .u_color_hover_tertiary_darker {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_tertiary_darker:hover {
   color: #9628f7 !important;
 }
 .u_color_hover_tertiary_darkest {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_tertiary_darkest:hover {
   color: #8c14f7 !important;
 }
 .u_color_hover_quat {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_quat:hover {
   color: #FE58CF !important;
 }
 .u_color_hover_quat_dark {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_quat_dark:hover {
   color: #fe35c5 !important;
 }
 .u_color_hover_quat_darker {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_quat_darker:hover {
   color: #fe0cb9 !important;
 }
 .u_color_hover_quat_darkest {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_quat_darkest:hover {
   color: #f401af !important;
 }
 .u_color_hover_quin {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_quin:hover {
   color: #FE8547 !important;
 }
 .u_color_hover_quin_dark {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_quin_dark:hover {
   color: #fe6d23 !important;
 }
 .u_color_hover_quin_darker {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_quin_darker:hover {
   color: #f75501 !important;
 }
 .u_color_hover_quin_darkest {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_quin_darkest:hover {
   color: #e34e01 !important;
 }
 .u_color_hover_sen {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_sen:hover {
   color: #FEE05C !important;
 }
 .u_color_hover_sen_dark {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_sen_dark:hover {
   color: #fed939 !important;
 }
 .u_color_hover_sen_darker {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_sen_darker:hover {
   color: #fed210 !important;
 }
 .u_color_hover_sen_darkest {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_sen_darkest:hover {
   color: #f8ca02 !important;
 }
 .u_color_hover_error {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_error:hover {
   color: #EF4035 !important;
 }
 .u_color_hover_warning {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_warning:hover {
   color: #FDB813 !important;
 }
 .u_color_hover_confirm {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_confirm:hover {
   color: #24C875 !important;
 }
 .u_color_hover_success {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_success:hover {
   color: #20A6FC !important;
 }
 .u_color_hover_white {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_white:hover {
   color: #FFFFFF !important;
 }
 .u_color_hover_black {
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
 .u_color_hover_black:hover {
@@ -9565,180 +9661,270 @@ p {
   background: #dde3ea !important;
 }
 .u_bg_hover_primary {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_primary:hover {
   background: #73FE73 !important;
 }
 .u_bg_hover_primary_dark {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_primary_dark:hover {
   background: #50fe50 !important;
 }
 .u_bg_hover_primary_darker {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_primary_darker:hover {
   background: #27fd27 !important;
 }
 .u_bg_hover_primary_darkest {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_primary_darkest:hover {
   background: #13fd13 !important;
 }
 .u_bg_hover_secondary {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_secondary:hover {
   background: #22CEED !important;
 }
 .u_bg_hover_secondary_dark {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_secondary_dark:hover {
   background: #12bbda !important;
 }
 .u_bg_hover_secondary_darker {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_secondary_darker:hover {
   background: #0f9bb4 !important;
 }
 .u_bg_hover_secondary_darkest {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_secondary_darkest:hover {
   background: #0d8aa1 !important;
 }
 .u_bg_hover_tertiary {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_tertiary:hover {
   background: #BA72FA !important;
 }
 .u_bg_hover_tertiary_dark {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_tertiary_dark:hover {
   background: #a950f9 !important;
 }
 .u_bg_hover_tertiary_darker {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_tertiary_darker:hover {
   background: #9628f7 !important;
 }
 .u_bg_hover_tertiary_darkest {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_tertiary_darkest:hover {
   background: #8c14f7 !important;
 }
 .u_bg_hover_quat {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_quat:hover {
   background: #FE58CF !important;
 }
 .u_bg_hover_quat_dark {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_quat_dark:hover {
   background: #fe35c5 !important;
 }
 .u_bg_hover_quat_darker {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_quat_darker:hover {
   background: #fe0cb9 !important;
 }
 .u_bg_hover_quat_darkest {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_quat_darkest:hover {
   background: #f401af !important;
 }
 .u_bg_hover_quin {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_quin:hover {
   background: #FE8547 !important;
 }
 .u_bg_hover_quin_dark {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_quin_dark:hover {
   background: #fe6d23 !important;
 }
 .u_bg_hover_quin_darker {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_quin_darker:hover {
   background: #f75501 !important;
 }
 .u_bg_hover_quin_darkest {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_quin_darkest:hover {
   background: #e34e01 !important;
 }
 .u_bg_hover_sen {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_sen:hover {
   background: #FEE05C !important;
 }
 .u_bg_hover_sen_dark {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_sen_dark:hover {
   background: #fed939 !important;
 }
 .u_bg_hover_sen_darker {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_sen_darker:hover {
   background: #fed210 !important;
 }
 .u_bg_hover_sen_darkest {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_sen_darkest:hover {
   background: #f8ca02 !important;
 }
 .u_bg_hover_error {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_error:hover {
   background: #EF4035 !important;
 }
 .u_bg_hover_warning {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_warning:hover {
   background: #FDB813 !important;
 }
 .u_bg_hover_confirm {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_confirm:hover {
   background: #24C875 !important;
 }
 .u_bg_hover_success {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_success:hover {
   background: #20A6FC !important;
 }
 .u_bg_hover_white {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_white:hover {
   background: #FFFFFF !important;
 }
 .u_bg_hover_black {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
 }
 .u_bg_hover_black:hover {
@@ -10537,36 +10723,69 @@ p {
   background: -o-linear-gradient(top, #FEE05C, #FEE05C) !important;
 }
 .u_opacity_0 {
+  -webkit-opacity: 0 !important;
+  -moz-opacity: 0 !important;
+  -o-opacity: 0 !important;
   opacity: 0 !important;
 }
 .u_opacity_1 {
+  -webkit-opacity: 0.1 !important;
+  -moz-opacity: 0.1 !important;
+  -o-opacity: 0.1 !important;
   opacity: 0.1 !important;
 }
 .u_opacity_2 {
+  -webkit-opacity: 0.2 !important;
+  -moz-opacity: 0.2 !important;
+  -o-opacity: 0.2 !important;
   opacity: 0.2 !important;
 }
 .u_opacity_3 {
+  -webkit-opacity: 0.3 !important;
+  -moz-opacity: 0.3 !important;
+  -o-opacity: 0.3 !important;
   opacity: 0.3 !important;
 }
 .u_opacity_4 {
+  -webkit-opacity: 0.4 !important;
+  -moz-opacity: 0.4 !important;
+  -o-opacity: 0.4 !important;
   opacity: 0.4 !important;
 }
 .u_opacity_5 {
+  -webkit-opacity: 0.5 !important;
+  -moz-opacity: 0.5 !important;
+  -o-opacity: 0.5 !important;
   opacity: 0.5 !important;
 }
 .u_opacity_6 {
+  -webkit-opacity: 0.6 !important;
+  -moz-opacity: 0.6 !important;
+  -o-opacity: 0.6 !important;
   opacity: 0.6 !important;
 }
 .u_opacity_7 {
+  -webkit-opacity: 0.7 !important;
+  -moz-opacity: 0.7 !important;
+  -o-opacity: 0.7 !important;
   opacity: 0.7 !important;
 }
 .u_opacity_8 {
+  -webkit-opacity: 0.8 !important;
+  -moz-opacity: 0.8 !important;
+  -o-opacity: 0.8 !important;
   opacity: 0.8 !important;
 }
 .u_opacity_9 {
+  -webkit-opacity: 0.9 !important;
+  -moz-opacity: 0.9 !important;
+  -o-opacity: 0.9 !important;
   opacity: 0.9 !important;
 }
 .u_opacity_10 {
+  -webkit-opacity: 1 !important;
+  -moz-opacity: 1 !important;
+  -o-opacity: 1 !important;
   opacity: 1 !important;
 }
 .u_wrap {
@@ -10852,96 +11071,189 @@ p {
   border-color: #000000 !important;
 }
 .u_border_inner_color_gray {
+  -webkit-box-shadow: inset 0 0 0 2px #536c84 !important;
+  -moz-box-shadow: inset 0 0 0 2px #536c84 !important;
+  -o-box-shadow: inset 0 0 0 2px #536c84 !important;
   box-shadow: inset 0 0 0 2px #536c84 !important;
 }
 .u_border_inner_color_gray_darkest {
+  -webkit-box-shadow: inset 0 0 0 2px #000000 !important;
+  -moz-box-shadow: inset 0 0 0 2px #000000 !important;
+  -o-box-shadow: inset 0 0 0 2px #000000 !important;
   box-shadow: inset 0 0 0 2px #000000 !important;
 }
 .u_border_inner_color_gray_darker {
+  -webkit-box-shadow: inset 0 0 0 2px #141a20 !important;
+  -moz-box-shadow: inset 0 0 0 2px #141a20 !important;
+  -o-box-shadow: inset 0 0 0 2px #141a20 !important;
   box-shadow: inset 0 0 0 2px #141a20 !important;
 }
 .u_border_inner_color_gray_dark {
+  -webkit-box-shadow: inset 0 0 0 2px #222c36 !important;
+  -moz-box-shadow: inset 0 0 0 2px #222c36 !important;
+  -o-box-shadow: inset 0 0 0 2px #222c36 !important;
   box-shadow: inset 0 0 0 2px #222c36 !important;
 }
 .u_border_inner_color_gray_light {
+  -webkit-box-shadow: inset 0 0 0 2px #98acbe !important;
+  -moz-box-shadow: inset 0 0 0 2px #98acbe !important;
+  -o-box-shadow: inset 0 0 0 2px #98acbe !important;
   box-shadow: inset 0 0 0 2px #98acbe !important;
 }
 .u_border_inner_color_gray_lighter {
+  -webkit-box-shadow: inset 0 0 0 2px #dde3ea !important;
+  -moz-box-shadow: inset 0 0 0 2px #dde3ea !important;
+  -o-box-shadow: inset 0 0 0 2px #dde3ea !important;
   box-shadow: inset 0 0 0 2px #dde3ea !important;
 }
 .u_border_inner_color_gray_lightest {
+  -webkit-box-shadow: inset 0 0 0 2px #f0f3f5 !important;
+  -moz-box-shadow: inset 0 0 0 2px #f0f3f5 !important;
+  -o-box-shadow: inset 0 0 0 2px #f0f3f5 !important;
   box-shadow: inset 0 0 0 2px #f0f3f5 !important;
 }
 .u_border_inner_color_white {
+  -webkit-box-shadow: inset 0 0 0 2px #FFFFFF !important;
+  -moz-box-shadow: inset 0 0 0 2px #FFFFFF !important;
+  -o-box-shadow: inset 0 0 0 2px #FFFFFF !important;
   box-shadow: inset 0 0 0 2px #FFFFFF !important;
 }
 .u_border_inner_color_black {
+  -webkit-box-shadow: inset 0 0 0 2px #000000 !important;
+  -moz-box-shadow: inset 0 0 0 2px #000000 !important;
+  -o-box-shadow: inset 0 0 0 2px #000000 !important;
   box-shadow: inset 0 0 0 2px #000000 !important;
 }
 .u_border_inner_color_primary {
+  -webkit-box-shadow: inset 0 0 0 2px #73FE73 !important;
+  -moz-box-shadow: inset 0 0 0 2px #73FE73 !important;
+  -o-box-shadow: inset 0 0 0 2px #73FE73 !important;
   box-shadow: inset 0 0 0 2px #73FE73 !important;
 }
 .u_border_inner_color_secondary {
+  -webkit-box-shadow: inset 0 0 0 2px #22CEED !important;
+  -moz-box-shadow: inset 0 0 0 2px #22CEED !important;
+  -o-box-shadow: inset 0 0 0 2px #22CEED !important;
   box-shadow: inset 0 0 0 2px #22CEED !important;
 }
 .u_border_inner_color_tertiary {
+  -webkit-box-shadow: inset 0 0 0 2px #BA72FA !important;
+  -moz-box-shadow: inset 0 0 0 2px #BA72FA !important;
+  -o-box-shadow: inset 0 0 0 2px #BA72FA !important;
   box-shadow: inset 0 0 0 2px #BA72FA !important;
 }
 .u_border_inner_color_quat {
+  -webkit-box-shadow: inset 0 0 0 2px #FE58CF !important;
+  -moz-box-shadow: inset 0 0 0 2px #FE58CF !important;
+  -o-box-shadow: inset 0 0 0 2px #FE58CF !important;
   box-shadow: inset 0 0 0 2px #FE58CF !important;
 }
 .u_border_inner_color_quin {
+  -webkit-box-shadow: inset 0 0 0 2px #FE8547 !important;
+  -moz-box-shadow: inset 0 0 0 2px #FE8547 !important;
+  -o-box-shadow: inset 0 0 0 2px #FE8547 !important;
   box-shadow: inset 0 0 0 2px #FE8547 !important;
 }
 .u_border_inner_color_sen {
+  -webkit-box-shadow: inset 0 0 0 2px #FEE05C !important;
+  -moz-box-shadow: inset 0 0 0 2px #FEE05C !important;
+  -o-box-shadow: inset 0 0 0 2px #FEE05C !important;
   box-shadow: inset 0 0 0 2px #FEE05C !important;
 }
 .u_border_inner_color_error {
+  -webkit-box-shadow: inset 0 0 0 2px #EF4035 !important;
+  -moz-box-shadow: inset 0 0 0 2px #EF4035 !important;
+  -o-box-shadow: inset 0 0 0 2px #EF4035 !important;
   box-shadow: inset 0 0 0 2px #EF4035 !important;
 }
 .u_border_inner_color_warning {
+  -webkit-box-shadow: inset 0 0 0 2px #FDB813 !important;
+  -moz-box-shadow: inset 0 0 0 2px #FDB813 !important;
+  -o-box-shadow: inset 0 0 0 2px #FDB813 !important;
   box-shadow: inset 0 0 0 2px #FDB813 !important;
 }
 .u_border_inner_color_success {
+  -webkit-box-shadow: inset 0 0 0 2px #20A6FC !important;
+  -moz-box-shadow: inset 0 0 0 2px #20A6FC !important;
+  -o-box-shadow: inset 0 0 0 2px #20A6FC !important;
   box-shadow: inset 0 0 0 2px #20A6FC !important;
 }
 .u_border_inner_color_confirm {
+  -webkit-box-shadow: inset 0 0 0 2px #24C875 !important;
+  -moz-box-shadow: inset 0 0 0 2px #24C875 !important;
+  -o-box-shadow: inset 0 0 0 2px #24C875 !important;
   box-shadow: inset 0 0 0 2px #24C875 !important;
 }
 .u_border_radius_0 {
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
   border-radius: 0 !important;
 }
 .u_border_radius_1 {
+  -webkit-border-radius: 1px !important;
+  -moz-border-radius: 1px !important;
+  -o-border-radius: 1px !important;
   border-radius: 1px !important;
 }
 .u_border_radius_2 {
+  -webkit-border-radius: 2px !important;
+  -moz-border-radius: 2px !important;
+  -o-border-radius: 2px !important;
   border-radius: 2px !important;
 }
 .u_border_radius_3 {
+  -webkit-border-radius: 3px !important;
+  -moz-border-radius: 3px !important;
+  -o-border-radius: 3px !important;
   border-radius: 3px !important;
 }
 .u_border_radius_4 {
+  -webkit-border-radius: 4px !important;
+  -moz-border-radius: 4px !important;
+  -o-border-radius: 4px !important;
   border-radius: 4px !important;
 }
 .u_border_radius_5 {
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
   border-radius: 5px !important;
 }
 .u_border_radius_6 {
+  -webkit-border-radius: 6px !important;
+  -moz-border-radius: 6px !important;
+  -o-border-radius: 6px !important;
   border-radius: 6px !important;
 }
 .u_border_radius_7 {
+  -webkit-border-radius: 7px !important;
+  -moz-border-radius: 7px !important;
+  -o-border-radius: 7px !important;
   border-radius: 7px !important;
 }
 .u_border_radius_8 {
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  -o-border-radius: 8px !important;
   border-radius: 8px !important;
 }
 .u_border_radius_9 {
+  -webkit-border-radius: 9px !important;
+  -moz-border-radius: 9px !important;
+  -o-border-radius: 9px !important;
   border-radius: 9px !important;
 }
 .u_border_radius_10 {
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
   border-radius: 10px !important;
 }
 .u_circle {
+  -webkit-border-radius: 500px !important;
+  -moz-border-radius: 500px !important;
+  -o-border-radius: 500px !important;
   border-radius: 500px !important;
 }
 .u_pos_rel {
@@ -10966,9 +11278,15 @@ p {
   vertical-align: bottom !important;
 }
 .u_translate_self_x {
+  -webkit-transform: translateX(-50%) !important;
+  -moz-transform: translateX(-50%) !important;
+  -o-transform: translateX(-50%) !important;
   transform: translateX(-50%) !important;
 }
 .u_translate_self_y {
+  -webkit-transform: translateY(-50%) !important;
+  -moz-transform: translateY(-50%) !important;
+  -o-transform: translateY(-50%) !important;
   transform: translateY(-50%) !important;
 }
 .u_mt_offset_5 {
@@ -11250,93 +11568,174 @@ p {
 .u_hover_grow_8,
 .u_hover_grow_9,
 .u_hover_grow_10 {
+  -webkit-transform: scale(1) !important;
+  -moz-transform: scale(1) !important;
+  -o-transform: scale(1) !important;
   transform: scale(1) !important;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
 .u_hover_grow_1:hover {
+  -webkit-transform: scale(1.025) !important;
+  -moz-transform: scale(1.025) !important;
+  -o-transform: scale(1.025) !important;
   transform: scale(1.025) !important;
 }
 .u_hover_grow_2:hover {
+  -webkit-transform: scale(1.05) !important;
+  -moz-transform: scale(1.05) !important;
+  -o-transform: scale(1.05) !important;
   transform: scale(1.05) !important;
 }
 .u_hover_grow_3:hover {
+  -webkit-transform: scale(1.075) !important;
+  -moz-transform: scale(1.075) !important;
+  -o-transform: scale(1.075) !important;
   transform: scale(1.075) !important;
 }
 .u_hover_grow_4:hover {
+  -webkit-transform: scale(1.1) !important;
+  -moz-transform: scale(1.1) !important;
+  -o-transform: scale(1.1) !important;
   transform: scale(1.1) !important;
 }
 .u_hover_grow_5:hover {
+  -webkit-transform: scale(1.125) !important;
+  -moz-transform: scale(1.125) !important;
+  -o-transform: scale(1.125) !important;
   transform: scale(1.125) !important;
 }
 .u_hover_grow_6:hover {
+  -webkit-transform: scale(1.15) !important;
+  -moz-transform: scale(1.15) !important;
+  -o-transform: scale(1.15) !important;
   transform: scale(1.15) !important;
 }
 .u_hover_grow_7:hover {
+  -webkit-transform: scale(1.175) !important;
+  -moz-transform: scale(1.175) !important;
+  -o-transform: scale(1.175) !important;
   transform: scale(1.175) !important;
 }
 .u_hover_grow_8:hover {
+  -webkit-transform: scale(1.2) !important;
+  -moz-transform: scale(1.2) !important;
+  -o-transform: scale(1.2) !important;
   transform: scale(1.2) !important;
 }
 .u_hover_grow_9:hover {
+  -webkit-transform: scale(1.225) !important;
+  -moz-transform: scale(1.225) !important;
+  -o-transform: scale(1.225) !important;
   transform: scale(1.225) !important;
 }
 .u_hover_grow_10:hover {
+  -webkit-transform: scale(1.25) !important;
+  -moz-transform: scale(1.25) !important;
+  -o-transform: scale(1.25) !important;
   transform: scale(1.25) !important;
 }
 /*///////////////////////////////////////////////*/
 /*                   ANIMATIONS                  */
 /*///////////////////////////////////////////////*/
 .anim_fade_in_rise {
+  -webkit-animation: FADE_IN_RISE 0.25s 1;
+  -moz-animation: FADE_IN_RISE 0.25s 1;
+  -o-animation: FADE_IN_RISE 0.25s 1;
   animation: FADE_IN_RISE 0.25s 1;
 }
 .anim_fade_in_rise_quick {
+  -webkit-animation: FADE_IN_RISE 0.5s 1;
+  -moz-animation: FADE_IN_RISE 0.5s 1;
+  -o-animation: FADE_IN_RISE 0.5s 1;
   animation: FADE_IN_RISE 0.5s 1;
 }
 .anim_fade_in_rise_long {
+  -webkit-animation: FADE_IN_RISE 1s 1;
+  -moz-animation: FADE_IN_RISE 1s 1;
+  -o-animation: FADE_IN_RISE 1s 1;
   animation: FADE_IN_RISE 1s 1;
 }
 @keyframes FADE_IN_RISE {
   0% {
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -o-opacity: 0;
     opacity: 0;
     top: 15px;
   }
   100% {
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    -o-opacity: 1;
     opacity: 1;
     top: 0;
   }
 }
 .anim_fade_in {
+  -webkit-animation: FADE_IN 0.25s 1;
+  -moz-animation: FADE_IN 0.25s 1;
+  -o-animation: FADE_IN 0.25s 1;
   animation: FADE_IN 0.25s 1;
 }
 .anim_fade_in_quick {
+  -webkit-animation: FADE_IN 0.5s 1;
+  -moz-animation: FADE_IN 0.5s 1;
+  -o-animation: FADE_IN 0.5s 1;
   animation: FADE_IN 0.5s 1;
 }
 .anim_fade_in_long {
+  -webkit-animation: FADE_IN 1s 1;
+  -moz-animation: FADE_IN 1s 1;
+  -o-animation: FADE_IN 1s 1;
   animation: FADE_IN 1s 1;
 }
 @keyframes FADE_IN {
   0% {
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -o-opacity: 0;
     opacity: 0;
   }
   100% {
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    -o-opacity: 1;
     opacity: 1;
   }
 }
 .anim_glide_left {
+  -webkit-animation: GLIDE_LEFT 0.25s 1;
+  -moz-animation: GLIDE_LEFT 0.25s 1;
+  -o-animation: GLIDE_LEFT 0.25s 1;
   animation: GLIDE_LEFT 0.25s 1;
 }
 .anim_glide_left_quick {
+  -webkit-animation: GLIDE_LEFT 0.5s 1;
+  -moz-animation: GLIDE_LEFT 0.5s 1;
+  -o-animation: GLIDE_LEFT 0.5s 1;
   animation: GLIDE_LEFT 0.5s 1;
 }
 .anim_glide_left_long {
+  -webkit-animation: GLIDE_LEFT 1s 1;
+  -moz-animation: GLIDE_LEFT 1s 1;
+  -o-animation: GLIDE_LEFT 1s 1;
   animation: GLIDE_LEFT 1s 1;
 }
 @keyframes GLIDE_LEFT {
   0% {
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -o-opacity: 0;
     opacity: 0;
     margin-left: 30px;
   }
   100% {
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    -o-opacity: 1;
     opacity: 1;
     margin-left: 0px;
   }
