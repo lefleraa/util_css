@@ -776,223 +776,223 @@
 .u_bg_hover_black:hover {
   background: #000000 !important;
 }
-.u_bg_grad_a_primary {
+.u_grad_a_primary {
   background: -webkit-linear-gradient(315deg, #3cfe3c, #73FE73) !important;
   background: -moz-linear-gradient(315deg, #3cfe3c, #73FE73) !important;
   background: -ms-linear-gradient(315deg, #3cfe3c, #73FE73) !important;
   background: -o-linear-gradient(315deg, #3cfe3c, #73FE73) !important;
 }
-.u_bg_grad_a_primary_secondary {
+.u_grad_a_primary_secondary {
   background: -webkit-linear-gradient(315deg, #73FE73, #22CEED) !important;
   background: -moz-linear-gradient(315deg, #73FE73, #22CEED) !important;
   background: -ms-linear-gradient(315deg, #73FE73, #22CEED) !important;
   background: -o-linear-gradient(315deg, #73FE73, #22CEED) !important;
 }
-.u_bg_grad_a_primary_tertiary {
+.u_grad_a_primary_tertiary {
   background: -webkit-linear-gradient(315deg, #73FE73, #BA72FA) !important;
   background: -moz-linear-gradient(315deg, #73FE73, #BA72FA) !important;
   background: -ms-linear-gradient(315deg, #73FE73, #BA72FA) !important;
   background: -o-linear-gradient(315deg, #73FE73, #BA72FA) !important;
 }
-.u_bg_grad_a_primary_quat {
+.u_grad_a_primary_quat {
   background: -webkit-linear-gradient(315deg, #73FE73, #FE58CF) !important;
   background: -moz-linear-gradient(315deg, #73FE73, #FE58CF) !important;
   background: -ms-linear-gradient(315deg, #73FE73, #FE58CF) !important;
   background: -o-linear-gradient(315deg, #73FE73, #FE58CF) !important;
 }
-.u_bg_grad_a_primary_quin {
+.u_grad_a_primary_quin {
   background: -webkit-linear-gradient(315deg, #73FE73, #FE8547) !important;
   background: -moz-linear-gradient(315deg, #73FE73, #FE8547) !important;
   background: -ms-linear-gradient(315deg, #73FE73, #FE8547) !important;
   background: -o-linear-gradient(315deg, #73FE73, #FE8547) !important;
 }
-.u_bg_grad_a_primary_sen {
+.u_grad_a_primary_sen {
   background: -webkit-linear-gradient(315deg, #73FE73, #FEE05C) !important;
   background: -moz-linear-gradient(315deg, #73FE73, #FEE05C) !important;
   background: -ms-linear-gradient(315deg, #73FE73, #FEE05C) !important;
   background: -o-linear-gradient(315deg, #73FE73, #FEE05C) !important;
 }
-.u_bg_grad_a_secondary {
+.u_grad_a_secondary {
   background: -webkit-linear-gradient(315deg, #11b7d5, #22CEED) !important;
   background: -moz-linear-gradient(315deg, #11b7d5, #22CEED) !important;
   background: -ms-linear-gradient(315deg, #11b7d5, #22CEED) !important;
   background: -o-linear-gradient(315deg, #11b7d5, #22CEED) !important;
 }
-.u_bg_grad_a_secondary_primary {
+.u_grad_a_secondary_primary {
   background: -webkit-linear-gradient(315deg, #22CEED, #73FE73) !important;
   background: -moz-linear-gradient(315deg, #22CEED, #73FE73) !important;
   background: -ms-linear-gradient(315deg, #22CEED, #73FE73) !important;
   background: -o-linear-gradient(315deg, #22CEED, #73FE73) !important;
 }
-.u_bg_grad_a_secondary_tertiary {
+.u_grad_a_secondary_tertiary {
   background: -webkit-linear-gradient(315deg, #22CEED, #BA72FA) !important;
   background: -moz-linear-gradient(315deg, #22CEED, #BA72FA) !important;
   background: -ms-linear-gradient(315deg, #22CEED, #BA72FA) !important;
   background: -o-linear-gradient(315deg, #22CEED, #BA72FA) !important;
 }
-.u_bg_grad_a_secondary_quat {
+.u_grad_a_secondary_quat {
   background: -webkit-linear-gradient(315deg, #22CEED, #FE58CF) !important;
   background: -moz-linear-gradient(315deg, #22CEED, #FE58CF) !important;
   background: -ms-linear-gradient(315deg, #22CEED, #FE58CF) !important;
   background: -o-linear-gradient(315deg, #22CEED, #FE58CF) !important;
 }
-.u_bg_grad_a_secondary_quin {
+.u_grad_a_secondary_quin {
   background: -webkit-linear-gradient(315deg, #22CEED, #FE8547) !important;
   background: -moz-linear-gradient(315deg, #22CEED, #FE8547) !important;
   background: -ms-linear-gradient(315deg, #22CEED, #FE8547) !important;
   background: -o-linear-gradient(315deg, #22CEED, #FE8547) !important;
 }
-.u_bg_grad_a_secondary_sen {
+.u_grad_a_secondary_sen {
   background: -webkit-linear-gradient(315deg, #22CEED, #FEE05C) !important;
   background: -moz-linear-gradient(315deg, #22CEED, #FEE05C) !important;
   background: -ms-linear-gradient(315deg, #22CEED, #FEE05C) !important;
   background: -o-linear-gradient(315deg, #22CEED, #FEE05C) !important;
 }
-.u_bg_grad_a_tertiary {
+.u_grad_a_tertiary {
   background: -webkit-linear-gradient(315deg, #a03df8, #BA72FA) !important;
   background: -moz-linear-gradient(315deg, #a03df8, #BA72FA) !important;
   background: -ms-linear-gradient(315deg, #a03df8, #BA72FA) !important;
   background: -o-linear-gradient(315deg, #a03df8, #BA72FA) !important;
 }
-.u_bg_grad_a_tertiary_primary {
+.u_grad_a_tertiary_primary {
   background: -webkit-linear-gradient(315deg, #BA72FA, #73FE73) !important;
   background: -moz-linear-gradient(315deg, #BA72FA, #73FE73) !important;
   background: -ms-linear-gradient(315deg, #BA72FA, #73FE73) !important;
   background: -o-linear-gradient(315deg, #BA72FA, #73FE73) !important;
 }
-.u_bg_grad_a_tertiary_secondary {
+.u_grad_a_tertiary_secondary {
   background: -webkit-linear-gradient(315deg, #BA72FA, #22CEED) !important;
   background: -moz-linear-gradient(315deg, #BA72FA, #22CEED) !important;
   background: -ms-linear-gradient(315deg, #BA72FA, #22CEED) !important;
   background: -o-linear-gradient(315deg, #BA72FA, #22CEED) !important;
 }
-.u_bg_grad_a_tertiary_quat {
+.u_grad_a_tertiary_quat {
   background: -webkit-linear-gradient(315deg, #BA72FA, #FE58CF) !important;
   background: -moz-linear-gradient(315deg, #BA72FA, #FE58CF) !important;
   background: -ms-linear-gradient(315deg, #BA72FA, #FE58CF) !important;
   background: -o-linear-gradient(315deg, #BA72FA, #FE58CF) !important;
 }
-.u_bg_grad_a_tertiary_quin {
+.u_grad_a_tertiary_quin {
   background: -webkit-linear-gradient(315deg, #BA72FA, #FE8547) !important;
   background: -moz-linear-gradient(315deg, #BA72FA, #FE8547) !important;
   background: -ms-linear-gradient(315deg, #BA72FA, #FE8547) !important;
   background: -o-linear-gradient(315deg, #BA72FA, #FE8547) !important;
 }
-.u_bg_grad_a_tertiary_sen {
+.u_grad_a_tertiary_sen {
   background: -webkit-linear-gradient(315deg, #BA72FA, #FEE05C) !important;
   background: -moz-linear-gradient(315deg, #BA72FA, #FEE05C) !important;
   background: -ms-linear-gradient(315deg, #BA72FA, #FEE05C) !important;
   background: -o-linear-gradient(315deg, #BA72FA, #FEE05C) !important;
 }
-.u_bg_grad_a_quat {
+.u_grad_a_quat {
   background: -webkit-linear-gradient(315deg, #fe25c0, #FE58CF) !important;
   background: -moz-linear-gradient(315deg, #fe25c0, #FE58CF) !important;
   background: -ms-linear-gradient(315deg, #fe25c0, #FE58CF) !important;
   background: -o-linear-gradient(315deg, #fe25c0, #FE58CF) !important;
 }
-.u_bg_grad_a_quat_primary {
+.u_grad_a_quat_primary {
   background: -webkit-linear-gradient(315deg, #FE58CF, #73FE73) !important;
   background: -moz-linear-gradient(315deg, #FE58CF, #73FE73) !important;
   background: -ms-linear-gradient(315deg, #FE58CF, #73FE73) !important;
   background: -o-linear-gradient(315deg, #FE58CF, #73FE73) !important;
 }
-.u_bg_grad_a_quat_secondary {
+.u_grad_a_quat_secondary {
   background: -webkit-linear-gradient(315deg, #FE58CF, #22CEED) !important;
   background: -moz-linear-gradient(315deg, #FE58CF, #22CEED) !important;
   background: -ms-linear-gradient(315deg, #FE58CF, #22CEED) !important;
   background: -o-linear-gradient(315deg, #FE58CF, #22CEED) !important;
 }
-.u_bg_grad_a_quat_tertiary {
+.u_grad_a_quat_tertiary {
   background: -webkit-linear-gradient(315deg, #FE58CF, #BA72FA) !important;
   background: -moz-linear-gradient(315deg, #FE58CF, #BA72FA) !important;
   background: -ms-linear-gradient(315deg, #FE58CF, #BA72FA) !important;
   background: -o-linear-gradient(315deg, #FE58CF, #BA72FA) !important;
 }
-.u_bg_grad_a_quat_quin {
+.u_grad_a_quat_quin {
   background: -webkit-linear-gradient(315deg, #FE58CF, #FE8547) !important;
   background: -moz-linear-gradient(315deg, #FE58CF, #FE8547) !important;
   background: -ms-linear-gradient(315deg, #FE58CF, #FE8547) !important;
   background: -o-linear-gradient(315deg, #FE58CF, #FE8547) !important;
 }
-.u_bg_grad_a_quat_sen {
+.u_grad_a_quat_sen {
   background: -webkit-linear-gradient(315deg, #FE58CF, #FEE05C) !important;
   background: -moz-linear-gradient(315deg, #FE58CF, #FEE05C) !important;
   background: -ms-linear-gradient(315deg, #FE58CF, #FEE05C) !important;
   background: -o-linear-gradient(315deg, #FE58CF, #FEE05C) !important;
 }
-.u_bg_grad_a_quin {
+.u_grad_a_quin {
   background: -webkit-linear-gradient(315deg, #fe6517, #FE8547) !important;
   background: -moz-linear-gradient(315deg, #fe6517, #FE8547) !important;
   background: -ms-linear-gradient(315deg, #fe6517, #FE8547) !important;
   background: -o-linear-gradient(315deg, #fe6517, #FE8547) !important;
 }
-.u_bg_grad_a_quin_primary {
+.u_grad_a_quin_primary {
   background: -webkit-linear-gradient(315deg, #FE8547, #73FE73) !important;
   background: -moz-linear-gradient(315deg, #FE8547, #73FE73) !important;
   background: -ms-linear-gradient(315deg, #FE8547, #73FE73) !important;
   background: -o-linear-gradient(315deg, #FE8547, #73FE73) !important;
 }
-.u_bg_grad_a_quin_secondary {
+.u_grad_a_quin_secondary {
   background: -webkit-linear-gradient(315deg, #FE8547, #22CEED) !important;
   background: -moz-linear-gradient(315deg, #FE8547, #22CEED) !important;
   background: -ms-linear-gradient(315deg, #FE8547, #22CEED) !important;
   background: -o-linear-gradient(315deg, #FE8547, #22CEED) !important;
 }
-.u_bg_grad_a_quin_tertiary {
+.u_grad_a_quin_tertiary {
   background: -webkit-linear-gradient(315deg, #FE8547, #BA72FA) !important;
   background: -moz-linear-gradient(315deg, #FE8547, #BA72FA) !important;
   background: -ms-linear-gradient(315deg, #FE8547, #BA72FA) !important;
   background: -o-linear-gradient(315deg, #FE8547, #BA72FA) !important;
 }
-.u_bg_grad_a_quin_quat {
+.u_grad_a_quin_quat {
   background: -webkit-linear-gradient(315deg, #FE8547, #FE58CF) !important;
   background: -moz-linear-gradient(315deg, #FE8547, #FE58CF) !important;
   background: -ms-linear-gradient(315deg, #FE8547, #FE58CF) !important;
   background: -o-linear-gradient(315deg, #FE8547, #FE58CF) !important;
 }
-.u_bg_grad_a_quin_sen {
+.u_grad_a_quin_sen {
   background: -webkit-linear-gradient(315deg, #FE8547, #FEE05C) !important;
   background: -moz-linear-gradient(315deg, #FE8547, #FEE05C) !important;
   background: -ms-linear-gradient(315deg, #FE8547, #FEE05C) !important;
   background: -o-linear-gradient(315deg, #FE8547, #FEE05C) !important;
 }
-.u_bg_grad_a_sen {
+.u_grad_a_sen {
   background: -webkit-linear-gradient(315deg, #fed628, #FEE05C) !important;
   background: -moz-linear-gradient(315deg, #fed628, #FEE05C) !important;
   background: -ms-linear-gradient(315deg, #fed628, #FEE05C) !important;
   background: -o-linear-gradient(315deg, #fed628, #FEE05C) !important;
 }
-.u_bg_grad_a_sen_primary {
+.u_grad_a_sen_primary {
   background: -webkit-linear-gradient(315deg, #FEE05C, #73FE73) !important;
   background: -moz-linear-gradient(315deg, #FEE05C, #73FE73) !important;
   background: -ms-linear-gradient(315deg, #FEE05C, #73FE73) !important;
   background: -o-linear-gradient(315deg, #FEE05C, #73FE73) !important;
 }
-.u_bg_grad_a_sen_secondary {
+.u_grad_a_sen_secondary {
   background: -webkit-linear-gradient(315deg, #FEE05C, #22CEED) !important;
   background: -moz-linear-gradient(315deg, #FEE05C, #22CEED) !important;
   background: -ms-linear-gradient(315deg, #FEE05C, #22CEED) !important;
   background: -o-linear-gradient(315deg, #FEE05C, #22CEED) !important;
 }
-.u_bg_grad_a_sen_tertiary {
+.u_grad_a_sen_tertiary {
   background: -webkit-linear-gradient(315deg, #FEE05C, #BA72FA) !important;
   background: -moz-linear-gradient(315deg, #FEE05C, #BA72FA) !important;
   background: -ms-linear-gradient(315deg, #FEE05C, #BA72FA) !important;
   background: -o-linear-gradient(315deg, #FEE05C, #BA72FA) !important;
 }
-.u_bg_grad_a_sen_quat {
+.u_grad_a_sen_quat {
   background: -webkit-linear-gradient(315deg, #FEE05C, #FE58CF) !important;
   background: -moz-linear-gradient(315deg, #FEE05C, #FE58CF) !important;
   background: -ms-linear-gradient(315deg, #FEE05C, #FE58CF) !important;
   background: -o-linear-gradient(315deg, #FEE05C, #FE58CF) !important;
 }
-.u_bg_grad_a_sen_quin {
+.u_grad_a_sen_quin {
   background: -webkit-linear-gradient(315deg, #FEE05C, #FEE05C) !important;
   background: -moz-linear-gradient(315deg, #FEE05C, #FEE05C) !important;
   background: -ms-linear-gradient(315deg, #FEE05C, #FEE05C) !important;
   background: -o-linear-gradient(315deg, #FEE05C, #FEE05C) !important;
 }
-.u_bg_grad_h_primary {
+.u_grad_h_primary {
   background: #3cfe3c !important;
   background: -webkit-gradient(linear, left top, right top, from(#3cfe3c), to(#73FE73)) !important;
   background: -webkit-linear-gradient(left, #3cfe3c, #73FE73) !important;
@@ -1000,7 +1000,7 @@
   background: -ms-linear-gradient(left, #3cfe3c, #73FE73) !important;
   background: -o-linear-gradient(left, #3cfe3c, #73FE73) !important;
 }
-.u_bg_grad_h_primary_secondary {
+.u_grad_h_primary_secondary {
   background: #73FE73 !important;
   background: -webkit-gradient(linear, left top, right top, from(#73FE73), to(#22CEED)) !important;
   background: -webkit-linear-gradient(left, #73FE73, #22CEED) !important;
@@ -1008,7 +1008,7 @@
   background: -ms-linear-gradient(left, #73FE73, #22CEED) !important;
   background: -o-linear-gradient(left, #73FE73, #22CEED) !important;
 }
-.u_bg_grad_h_primary_tertiary {
+.u_grad_h_primary_tertiary {
   background: #73FE73 !important;
   background: -webkit-gradient(linear, left top, right top, from(#73FE73), to(#BA72FA)) !important;
   background: -webkit-linear-gradient(left, #73FE73, #BA72FA) !important;
@@ -1016,7 +1016,7 @@
   background: -ms-linear-gradient(left, #73FE73, #BA72FA) !important;
   background: -o-linear-gradient(left, #73FE73, #BA72FA) !important;
 }
-.u_bg_grad_h_primary_quat {
+.u_grad_h_primary_quat {
   background: #73FE73 !important;
   background: -webkit-gradient(linear, left top, right top, from(#73FE73), to(#FE58CF)) !important;
   background: -webkit-linear-gradient(left, #73FE73, #FE58CF) !important;
@@ -1024,7 +1024,7 @@
   background: -ms-linear-gradient(left, #73FE73, #FE58CF) !important;
   background: -o-linear-gradient(left, #73FE73, #FE58CF) !important;
 }
-.u_bg_grad_h_primary_quin {
+.u_grad_h_primary_quin {
   background: #73FE73 !important;
   background: -webkit-gradient(linear, left top, right top, from(#73FE73), to(#FE8547)) !important;
   background: -webkit-linear-gradient(left, #73FE73, #FE8547) !important;
@@ -1032,7 +1032,7 @@
   background: -ms-linear-gradient(left, #73FE73, #FE8547) !important;
   background: -o-linear-gradient(left, #73FE73, #FE8547) !important;
 }
-.u_bg_grad_h_primary_sen {
+.u_grad_h_primary_sen {
   background: #73FE73 !important;
   background: -webkit-gradient(linear, left top, right top, from(#73FE73), to(#FEE05C)) !important;
   background: -webkit-linear-gradient(left, #73FE73, #FEE05C) !important;
@@ -1040,7 +1040,7 @@
   background: -ms-linear-gradient(left, #73FE73, #FEE05C) !important;
   background: -o-linear-gradient(left, #73FE73, #FEE05C) !important;
 }
-.u_bg_grad_h_secondary {
+.u_grad_h_secondary {
   background: #11b7d5 !important;
   background: -webkit-gradient(linear, left top, right top, from(#11b7d5), to(#22CEED)) !important;
   background: -webkit-linear-gradient(left, #11b7d5, #22CEED) !important;
@@ -1048,7 +1048,7 @@
   background: -ms-linear-gradient(left, #11b7d5, #22CEED) !important;
   background: -o-linear-gradient(left, #11b7d5, #22CEED) !important;
 }
-.u_bg_grad_h_secondary_primary {
+.u_grad_h_secondary_primary {
   background: #22CEED !important;
   background: -webkit-gradient(linear, left top, right top, from(#22CEED), to(#73FE73)) !important;
   background: -webkit-linear-gradient(left, #22CEED, #73FE73) !important;
@@ -1056,7 +1056,7 @@
   background: -ms-linear-gradient(left, #22CEED, #73FE73) !important;
   background: -o-linear-gradient(left, #22CEED, #73FE73) !important;
 }
-.u_bg_grad_h_secondary_tertiary {
+.u_grad_h_secondary_tertiary {
   background: #22CEED !important;
   background: -webkit-gradient(linear, left top, right top, from(#22CEED), to(#BA72FA)) !important;
   background: -webkit-linear-gradient(left, #22CEED, #BA72FA) !important;
@@ -1064,7 +1064,7 @@
   background: -ms-linear-gradient(left, #22CEED, #BA72FA) !important;
   background: -o-linear-gradient(left, #22CEED, #BA72FA) !important;
 }
-.u_bg_grad_h_secondary_quat {
+.u_grad_h_secondary_quat {
   background: #22CEED !important;
   background: -webkit-gradient(linear, left top, right top, from(#22CEED), to(#FE58CF)) !important;
   background: -webkit-linear-gradient(left, #22CEED, #FE58CF) !important;
@@ -1072,7 +1072,7 @@
   background: -ms-linear-gradient(left, #22CEED, #FE58CF) !important;
   background: -o-linear-gradient(left, #22CEED, #FE58CF) !important;
 }
-.u_bg_grad_h_secondary_quin {
+.u_grad_h_secondary_quin {
   background: #22CEED !important;
   background: -webkit-gradient(linear, left top, right top, from(#22CEED), to(#FE8547)) !important;
   background: -webkit-linear-gradient(left, #22CEED, #FE8547) !important;
@@ -1080,7 +1080,7 @@
   background: -ms-linear-gradient(left, #22CEED, #FE8547) !important;
   background: -o-linear-gradient(left, #22CEED, #FE8547) !important;
 }
-.u_bg_grad_h_secondary_sen {
+.u_grad_h_secondary_sen {
   background: #22CEED !important;
   background: -webkit-gradient(linear, left top, right top, from(#22CEED), to(#FEE05C)) !important;
   background: -webkit-linear-gradient(left, #22CEED, #FEE05C) !important;
@@ -1088,7 +1088,7 @@
   background: -ms-linear-gradient(left, #22CEED, #FEE05C) !important;
   background: -o-linear-gradient(left, #22CEED, #FEE05C) !important;
 }
-.u_bg_grad_h_tertiary {
+.u_grad_h_tertiary {
   background: #a03df8 !important;
   background: -webkit-gradient(linear, left top, right top, from(#a03df8), to(#BA72FA)) !important;
   background: -webkit-linear-gradient(left, #a03df8, #BA72FA) !important;
@@ -1096,7 +1096,7 @@
   background: -ms-linear-gradient(left, #a03df8, #BA72FA) !important;
   background: -o-linear-gradient(left, #a03df8, #BA72FA) !important;
 }
-.u_bg_grad_h_tertiary_primary {
+.u_grad_h_tertiary_primary {
   background: #BA72FA !important;
   background: -webkit-gradient(linear, left top, right top, from(#BA72FA), to(#73FE73)) !important;
   background: -webkit-linear-gradient(left, #BA72FA, #73FE73) !important;
@@ -1104,7 +1104,7 @@
   background: -ms-linear-gradient(left, #BA72FA, #73FE73) !important;
   background: -o-linear-gradient(left, #BA72FA, #73FE73) !important;
 }
-.u_bg_grad_h_tertiary_secondary {
+.u_grad_h_tertiary_secondary {
   background: #BA72FA !important;
   background: -webkit-gradient(linear, left top, right top, from(#BA72FA), to(#22CEED)) !important;
   background: -webkit-linear-gradient(left, #BA72FA, #22CEED) !important;
@@ -1112,7 +1112,7 @@
   background: -ms-linear-gradient(left, #BA72FA, #22CEED) !important;
   background: -o-linear-gradient(left, #BA72FA, #22CEED) !important;
 }
-.u_bg_grad_h_tertiary_quat {
+.u_grad_h_tertiary_quat {
   background: #BA72FA !important;
   background: -webkit-gradient(linear, left top, right top, from(#BA72FA), to(#FE58CF)) !important;
   background: -webkit-linear-gradient(left, #BA72FA, #FE58CF) !important;
@@ -1120,7 +1120,7 @@
   background: -ms-linear-gradient(left, #BA72FA, #FE58CF) !important;
   background: -o-linear-gradient(left, #BA72FA, #FE58CF) !important;
 }
-.u_bg_grad_h_tertiary_quin {
+.u_grad_h_tertiary_quin {
   background: #BA72FA !important;
   background: -webkit-gradient(linear, left top, right top, from(#BA72FA), to(#FE8547)) !important;
   background: -webkit-linear-gradient(left, #BA72FA, #FE8547) !important;
@@ -1128,7 +1128,7 @@
   background: -ms-linear-gradient(left, #BA72FA, #FE8547) !important;
   background: -o-linear-gradient(left, #BA72FA, #FE8547) !important;
 }
-.u_bg_grad_h_tertiary_sen {
+.u_grad_h_tertiary_sen {
   background: #BA72FA !important;
   background: -webkit-gradient(linear, left top, right top, from(#BA72FA), to(#FEE05C)) !important;
   background: -webkit-linear-gradient(left, #BA72FA, #FEE05C) !important;
@@ -1136,7 +1136,7 @@
   background: -ms-linear-gradient(left, #BA72FA, #FEE05C) !important;
   background: -o-linear-gradient(left, #BA72FA, #FEE05C) !important;
 }
-.u_bg_grad_h_quat {
+.u_grad_h_quat {
   background: #fe25c0 !important;
   background: -webkit-gradient(linear, left top, right top, from(#fe25c0), to(#FE58CF)) !important;
   background: -webkit-linear-gradient(left, #fe25c0, #FE58CF) !important;
@@ -1144,7 +1144,7 @@
   background: -ms-linear-gradient(left, #fe25c0, #FE58CF) !important;
   background: -o-linear-gradient(left, #fe25c0, #FE58CF) !important;
 }
-.u_bg_grad_h_quat_primary {
+.u_grad_h_quat_primary {
   background: #FE58CF !important;
   background: -webkit-gradient(linear, left top, right top, from(#FE58CF), to(#73FE73)) !important;
   background: -webkit-linear-gradient(left, #FE58CF, #73FE73) !important;
@@ -1152,7 +1152,7 @@
   background: -ms-linear-gradient(left, #FE58CF, #73FE73) !important;
   background: -o-linear-gradient(left, #FE58CF, #73FE73) !important;
 }
-.u_bg_grad_h_quat_secondary {
+.u_grad_h_quat_secondary {
   background: #FE58CF !important;
   background: -webkit-gradient(linear, left top, right top, from(#FE58CF), to(#22CEED)) !important;
   background: -webkit-linear-gradient(left, #FE58CF, #22CEED) !important;
@@ -1160,7 +1160,7 @@
   background: -ms-linear-gradient(left, #FE58CF, #22CEED) !important;
   background: -o-linear-gradient(left, #FE58CF, #22CEED) !important;
 }
-.u_bg_grad_h_quat_tertiary {
+.u_grad_h_quat_tertiary {
   background: #FE58CF !important;
   background: -webkit-gradient(linear, left top, right top, from(#FE58CF), to(#BA72FA)) !important;
   background: -webkit-linear-gradient(left, #FE58CF, #BA72FA) !important;
@@ -1168,7 +1168,7 @@
   background: -ms-linear-gradient(left, #FE58CF, #BA72FA) !important;
   background: -o-linear-gradient(left, #FE58CF, #BA72FA) !important;
 }
-.u_bg_grad_h_quat_quin {
+.u_grad_h_quat_quin {
   background: #FE58CF !important;
   background: -webkit-gradient(linear, left top, right top, from(#FE58CF), to(#FE8547)) !important;
   background: -webkit-linear-gradient(left, #FE58CF, #FE8547) !important;
@@ -1176,7 +1176,7 @@
   background: -ms-linear-gradient(left, #FE58CF, #FE8547) !important;
   background: -o-linear-gradient(left, #FE58CF, #FE8547) !important;
 }
-.u_bg_grad_h_quat_sen {
+.u_grad_h_quat_sen {
   background: #FE58CF !important;
   background: -webkit-gradient(linear, left top, right top, from(#FE58CF), to(#FEE05C)) !important;
   background: -webkit-linear-gradient(left, #FE58CF, #FEE05C) !important;
@@ -1184,7 +1184,7 @@
   background: -ms-linear-gradient(left, #FE58CF, #FEE05C) !important;
   background: -o-linear-gradient(left, #FE58CF, #FEE05C) !important;
 }
-.u_bg_grad_h_quin {
+.u_grad_h_quin {
   background: #fe6517 !important;
   background: -webkit-gradient(linear, left top, right top, from(#fe6517), to(#FE8547)) !important;
   background: -webkit-linear-gradient(left, #fe6517, #FE8547) !important;
@@ -1192,7 +1192,7 @@
   background: -ms-linear-gradient(left, #fe6517, #FE8547) !important;
   background: -o-linear-gradient(left, #fe6517, #FE8547) !important;
 }
-.u_bg_grad_h_quin_primary {
+.u_grad_h_quin_primary {
   background: #FE8547 !important;
   background: -webkit-gradient(linear, left top, right top, from(#FE8547), to(#73FE73)) !important;
   background: -webkit-linear-gradient(left, #FE8547, #73FE73) !important;
@@ -1200,7 +1200,7 @@
   background: -ms-linear-gradient(left, #FE8547, #73FE73) !important;
   background: -o-linear-gradient(left, #FE8547, #73FE73) !important;
 }
-.u_bg_grad_h_quin_secondary {
+.u_grad_h_quin_secondary {
   background: #FE8547 !important;
   background: -webkit-gradient(linear, left top, right top, from(#FE8547), to(#22CEED)) !important;
   background: -webkit-linear-gradient(left, #FE8547, #22CEED) !important;
@@ -1208,7 +1208,7 @@
   background: -ms-linear-gradient(left, #FE8547, #22CEED) !important;
   background: -o-linear-gradient(left, #FE8547, #22CEED) !important;
 }
-.u_bg_grad_h_quin_tertiary {
+.u_grad_h_quin_tertiary {
   background: #FE8547 !important;
   background: -webkit-gradient(linear, left top, right top, from(#FE8547), to(#BA72FA)) !important;
   background: -webkit-linear-gradient(left, #FE8547, #BA72FA) !important;
@@ -1216,7 +1216,7 @@
   background: -ms-linear-gradient(left, #FE8547, #BA72FA) !important;
   background: -o-linear-gradient(left, #FE8547, #BA72FA) !important;
 }
-.u_bg_grad_h_quin_quat {
+.u_grad_h_quin_quat {
   background: #FE8547 !important;
   background: -webkit-gradient(linear, left top, right top, from(#FE8547), to(#FE58CF)) !important;
   background: -webkit-linear-gradient(left, #FE8547, #FE58CF) !important;
@@ -1224,7 +1224,7 @@
   background: -ms-linear-gradient(left, #FE8547, #FE58CF) !important;
   background: -o-linear-gradient(left, #FE8547, #FE58CF) !important;
 }
-.u_bg_grad_h_quin_sen {
+.u_grad_h_quin_sen {
   background: #FE8547 !important;
   background: -webkit-gradient(linear, left top, right top, from(#FE8547), to(#FEE05C)) !important;
   background: -webkit-linear-gradient(left, #FE8547, #FEE05C) !important;
@@ -1232,7 +1232,7 @@
   background: -ms-linear-gradient(left, #FE8547, #FEE05C) !important;
   background: -o-linear-gradient(left, #FE8547, #FEE05C) !important;
 }
-.u_bg_grad_h_sen {
+.u_grad_h_sen {
   background: #fed628 !important;
   background: -webkit-gradient(linear, left top, right top, from(#fed628), to(#FEE05C)) !important;
   background: -webkit-linear-gradient(left, #fed628, #FEE05C) !important;
@@ -1240,7 +1240,7 @@
   background: -ms-linear-gradient(left, #fed628, #FEE05C) !important;
   background: -o-linear-gradient(left, #fed628, #FEE05C) !important;
 }
-.u_bg_grad_h_sen_primary {
+.u_grad_h_sen_primary {
   background: #FEE05C !important;
   background: -webkit-gradient(linear, left top, right top, from(#FEE05C), to(#73FE73)) !important;
   background: -webkit-linear-gradient(left, #FEE05C, #73FE73) !important;
@@ -1248,7 +1248,7 @@
   background: -ms-linear-gradient(left, #FEE05C, #73FE73) !important;
   background: -o-linear-gradient(left, #FEE05C, #73FE73) !important;
 }
-.u_bg_grad_h_sen_secondary {
+.u_grad_h_sen_secondary {
   background: #FEE05C !important;
   background: -webkit-gradient(linear, left top, right top, from(#FEE05C), to(#22CEED)) !important;
   background: -webkit-linear-gradient(left, #FEE05C, #22CEED) !important;
@@ -1256,7 +1256,7 @@
   background: -ms-linear-gradient(left, #FEE05C, #22CEED) !important;
   background: -o-linear-gradient(left, #FEE05C, #22CEED) !important;
 }
-.u_bg_grad_h_sen_tertiary {
+.u_grad_h_sen_tertiary {
   background: #FEE05C !important;
   background: -webkit-gradient(linear, left top, right top, from(#FEE05C), to(#BA72FA)) !important;
   background: -webkit-linear-gradient(left, #FEE05C, #BA72FA) !important;
@@ -1264,7 +1264,7 @@
   background: -ms-linear-gradient(left, #FEE05C, #BA72FA) !important;
   background: -o-linear-gradient(left, #FEE05C, #BA72FA) !important;
 }
-.u_bg_grad_h_sen_quat {
+.u_grad_h_sen_quat {
   background: #FEE05C !important;
   background: -webkit-gradient(linear, left top, right top, from(#FEE05C), to(#FE58CF)) !important;
   background: -webkit-linear-gradient(left, #FEE05C, #FE58CF) !important;
@@ -1272,7 +1272,7 @@
   background: -ms-linear-gradient(left, #FEE05C, #FE58CF) !important;
   background: -o-linear-gradient(left, #FEE05C, #FE58CF) !important;
 }
-.u_bg_grad_h_sen_quin {
+.u_grad_h_sen_quin {
   background: #FEE05C !important;
   background: -webkit-gradient(linear, left top, right top, from(#FEE05C), to(#FEE05C)) !important;
   background: -webkit-linear-gradient(left, #FEE05C, #FEE05C) !important;
@@ -1280,7 +1280,7 @@
   background: -ms-linear-gradient(left, #FEE05C, #FEE05C) !important;
   background: -o-linear-gradient(left, #FEE05C, #FEE05C) !important;
 }
-.u_bg_grad_v_primary {
+.u_grad_v_primary {
   background: #3cfe3c !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#3cfe3c), to(#73FE73)) !important;
   background: -webkit-linear-gradient(top, #3cfe3c, #73FE73) !important;
@@ -1288,7 +1288,7 @@
   background: -ms-linear-gradient(top, #3cfe3c, #73FE73) !important;
   background: -o-linear-gradient(top, #3cfe3c, #73FE73) !important;
 }
-.u_bg_grad_v_primary_secondary {
+.u_grad_v_primary_secondary {
   background: #73FE73 !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#73FE73), to(#22CEED)) !important;
   background: -webkit-linear-gradient(top, #73FE73, #22CEED) !important;
@@ -1296,7 +1296,7 @@
   background: -ms-linear-gradient(top, #73FE73, #22CEED) !important;
   background: -o-linear-gradient(top, #73FE73, #22CEED) !important;
 }
-.u_bg_grad_v_primary_tertiary {
+.u_grad_v_primary_tertiary {
   background: #73FE73 !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#73FE73), to(#BA72FA)) !important;
   background: -webkit-linear-gradient(top, #73FE73, #BA72FA) !important;
@@ -1304,7 +1304,7 @@
   background: -ms-linear-gradient(top, #73FE73, #BA72FA) !important;
   background: -o-linear-gradient(top, #73FE73, #BA72FA) !important;
 }
-.u_bg_grad_v_primary_quat {
+.u_grad_v_primary_quat {
   background: #73FE73 !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#73FE73), to(#FE58CF)) !important;
   background: -webkit-linear-gradient(top, #73FE73, #FE58CF) !important;
@@ -1312,7 +1312,7 @@
   background: -ms-linear-gradient(top, #73FE73, #FE58CF) !important;
   background: -o-linear-gradient(top, #73FE73, #FE58CF) !important;
 }
-.u_bg_grad_v_primary_quin {
+.u_grad_v_primary_quin {
   background: #73FE73 !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#73FE73), to(#FE8547)) !important;
   background: -webkit-linear-gradient(top, #73FE73, #FE8547) !important;
@@ -1320,7 +1320,7 @@
   background: -ms-linear-gradient(top, #73FE73, #FE8547) !important;
   background: -o-linear-gradient(top, #73FE73, #FE8547) !important;
 }
-.u_bg_grad_v_primary_sen {
+.u_grad_v_primary_sen {
   background: #73FE73 !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#73FE73), to(#FEE05C)) !important;
   background: -webkit-linear-gradient(top, #73FE73, #FEE05C) !important;
@@ -1328,7 +1328,7 @@
   background: -ms-linear-gradient(top, #73FE73, #FEE05C) !important;
   background: -o-linear-gradient(top, #73FE73, #FEE05C) !important;
 }
-.u_bg_grad_v_secondary {
+.u_grad_v_secondary {
   background: #11b7d5 !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#11b7d5), to(#22CEED)) !important;
   background: -webkit-linear-gradient(top, #11b7d5, #22CEED) !important;
@@ -1336,7 +1336,7 @@
   background: -ms-linear-gradient(top, #11b7d5, #22CEED) !important;
   background: -o-linear-gradient(top, #11b7d5, #22CEED) !important;
 }
-.u_bg_grad_v_secondary_primary {
+.u_grad_v_secondary_primary {
   background: #22CEED !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#22CEED), to(#73FE73)) !important;
   background: -webkit-linear-gradient(top, #22CEED, #73FE73) !important;
@@ -1344,7 +1344,7 @@
   background: -ms-linear-gradient(top, #22CEED, #73FE73) !important;
   background: -o-linear-gradient(top, #22CEED, #73FE73) !important;
 }
-.u_bg_grad_v_secondary_tertiary {
+.u_grad_v_secondary_tertiary {
   background: #22CEED !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#22CEED), to(#BA72FA)) !important;
   background: -webkit-linear-gradient(top, #22CEED, #BA72FA) !important;
@@ -1352,7 +1352,7 @@
   background: -ms-linear-gradient(top, #22CEED, #BA72FA) !important;
   background: -o-linear-gradient(top, #22CEED, #BA72FA) !important;
 }
-.u_bg_grad_v_secondary_quat {
+.u_grad_v_secondary_quat {
   background: #22CEED !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#22CEED), to(#FE58CF)) !important;
   background: -webkit-linear-gradient(top, #22CEED, #FE58CF) !important;
@@ -1360,7 +1360,7 @@
   background: -ms-linear-gradient(top, #22CEED, #FE58CF) !important;
   background: -o-linear-gradient(top, #22CEED, #FE58CF) !important;
 }
-.u_bg_grad_v_secondary_quin {
+.u_grad_v_secondary_quin {
   background: #22CEED !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#22CEED), to(#FE8547)) !important;
   background: -webkit-linear-gradient(top, #22CEED, #FE8547) !important;
@@ -1368,7 +1368,7 @@
   background: -ms-linear-gradient(top, #22CEED, #FE8547) !important;
   background: -o-linear-gradient(top, #22CEED, #FE8547) !important;
 }
-.u_bg_grad_v_secondary_sen {
+.u_grad_v_secondary_sen {
   background: #22CEED !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#22CEED), to(#FEE05C)) !important;
   background: -webkit-linear-gradient(top, #22CEED, #FEE05C) !important;
@@ -1376,7 +1376,7 @@
   background: -ms-linear-gradient(top, #22CEED, #FEE05C) !important;
   background: -o-linear-gradient(top, #22CEED, #FEE05C) !important;
 }
-.u_bg_grad_v_tertiary {
+.u_grad_v_tertiary {
   background: #a03df8 !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#a03df8), to(#BA72FA)) !important;
   background: -webkit-linear-gradient(top, #a03df8, #BA72FA) !important;
@@ -1384,7 +1384,7 @@
   background: -ms-linear-gradient(top, #a03df8, #BA72FA) !important;
   background: -o-linear-gradient(top, #a03df8, #BA72FA) !important;
 }
-.u_bg_grad_v_tertiary_primary {
+.u_grad_v_tertiary_primary {
   background: #BA72FA !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#BA72FA), to(#73FE73)) !important;
   background: -webkit-linear-gradient(top, #BA72FA, #73FE73) !important;
@@ -1392,7 +1392,7 @@
   background: -ms-linear-gradient(top, #BA72FA, #73FE73) !important;
   background: -o-linear-gradient(top, #BA72FA, #73FE73) !important;
 }
-.u_bg_grad_v_tertiary_secondary {
+.u_grad_v_tertiary_secondary {
   background: #BA72FA !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#BA72FA), to(#22CEED)) !important;
   background: -webkit-linear-gradient(top, #BA72FA, #22CEED) !important;
@@ -1400,7 +1400,7 @@
   background: -ms-linear-gradient(top, #BA72FA, #22CEED) !important;
   background: -o-linear-gradient(top, #BA72FA, #22CEED) !important;
 }
-.u_bg_grad_v_tertiary_quat {
+.u_grad_v_tertiary_quat {
   background: #BA72FA !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#BA72FA), to(#FE58CF)) !important;
   background: -webkit-linear-gradient(top, #BA72FA, #FE58CF) !important;
@@ -1408,7 +1408,7 @@
   background: -ms-linear-gradient(top, #BA72FA, #FE58CF) !important;
   background: -o-linear-gradient(top, #BA72FA, #FE58CF) !important;
 }
-.u_bg_grad_v_tertiary_quin {
+.u_grad_v_tertiary_quin {
   background: #BA72FA !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#BA72FA), to(#FE8547)) !important;
   background: -webkit-linear-gradient(top, #BA72FA, #FE8547) !important;
@@ -1416,7 +1416,7 @@
   background: -ms-linear-gradient(top, #BA72FA, #FE8547) !important;
   background: -o-linear-gradient(top, #BA72FA, #FE8547) !important;
 }
-.u_bg_grad_v_tertiary_sen {
+.u_grad_v_tertiary_sen {
   background: #BA72FA !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#BA72FA), to(#FEE05C)) !important;
   background: -webkit-linear-gradient(top, #BA72FA, #FEE05C) !important;
@@ -1424,7 +1424,7 @@
   background: -ms-linear-gradient(top, #BA72FA, #FEE05C) !important;
   background: -o-linear-gradient(top, #BA72FA, #FEE05C) !important;
 }
-.u_bg_grad_v_quat {
+.u_grad_v_quat {
   background: #fe25c0 !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#fe25c0), to(#FE58CF)) !important;
   background: -webkit-linear-gradient(top, #fe25c0, #FE58CF) !important;
@@ -1432,7 +1432,7 @@
   background: -ms-linear-gradient(top, #fe25c0, #FE58CF) !important;
   background: -o-linear-gradient(top, #fe25c0, #FE58CF) !important;
 }
-.u_bg_grad_v_quat_primary {
+.u_grad_v_quat_primary {
   background: #FE58CF !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#FE58CF), to(#73FE73)) !important;
   background: -webkit-linear-gradient(top, #FE58CF, #73FE73) !important;
@@ -1440,7 +1440,7 @@
   background: -ms-linear-gradient(top, #FE58CF, #73FE73) !important;
   background: -o-linear-gradient(top, #FE58CF, #73FE73) !important;
 }
-.u_bg_grad_v_quat_secondary {
+.u_grad_v_quat_secondary {
   background: #FE58CF !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#FE58CF), to(#22CEED)) !important;
   background: -webkit-linear-gradient(top, #FE58CF, #22CEED) !important;
@@ -1448,7 +1448,7 @@
   background: -ms-linear-gradient(top, #FE58CF, #22CEED) !important;
   background: -o-linear-gradient(top, #FE58CF, #22CEED) !important;
 }
-.u_bg_grad_v_quat_tertiary {
+.u_grad_v_quat_tertiary {
   background: #FE58CF !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#FE58CF), to(#BA72FA)) !important;
   background: -webkit-linear-gradient(top, #FE58CF, #BA72FA) !important;
@@ -1456,7 +1456,7 @@
   background: -ms-linear-gradient(top, #FE58CF, #BA72FA) !important;
   background: -o-linear-gradient(top, #FE58CF, #BA72FA) !important;
 }
-.u_bg_grad_v_quat_quin {
+.u_grad_v_quat_quin {
   background: #FE58CF !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#FE58CF), to(#FE8547)) !important;
   background: -webkit-linear-gradient(top, #FE58CF, #FE8547) !important;
@@ -1464,7 +1464,7 @@
   background: -ms-linear-gradient(top, #FE58CF, #FE8547) !important;
   background: -o-linear-gradient(top, #FE58CF, #FE8547) !important;
 }
-.u_bg_grad_v_quat_sen {
+.u_grad_v_quat_sen {
   background: #FE58CF !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#FE58CF), to(#FEE05C)) !important;
   background: -webkit-linear-gradient(top, #FE58CF, #FEE05C) !important;
@@ -1472,7 +1472,7 @@
   background: -ms-linear-gradient(top, #FE58CF, #FEE05C) !important;
   background: -o-linear-gradient(top, #FE58CF, #FEE05C) !important;
 }
-.u_bg_grad_v_quin {
+.u_grad_v_quin {
   background: #fe6517 !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#fe6517), to(#FE8547)) !important;
   background: -webkit-linear-gradient(top, #fe6517, #FE8547) !important;
@@ -1480,7 +1480,7 @@
   background: -ms-linear-gradient(top, #fe6517, #FE8547) !important;
   background: -o-linear-gradient(top, #fe6517, #FE8547) !important;
 }
-.u_bg_grad_v_quin_primary {
+.u_grad_v_quin_primary {
   background: #FE8547 !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#FE8547), to(#73FE73)) !important;
   background: -webkit-linear-gradient(top, #FE8547, #73FE73) !important;
@@ -1488,7 +1488,7 @@
   background: -ms-linear-gradient(top, #FE8547, #73FE73) !important;
   background: -o-linear-gradient(top, #FE8547, #73FE73) !important;
 }
-.u_bg_grad_v_quin_secondary {
+.u_grad_v_quin_secondary {
   background: #FE8547 !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#FE8547), to(#22CEED)) !important;
   background: -webkit-linear-gradient(top, #FE8547, #22CEED) !important;
@@ -1496,7 +1496,7 @@
   background: -ms-linear-gradient(top, #FE8547, #22CEED) !important;
   background: -o-linear-gradient(top, #FE8547, #22CEED) !important;
 }
-.u_bg_grad_v_quin_tertiary {
+.u_grad_v_quin_tertiary {
   background: #FE8547 !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#FE8547), to(#BA72FA)) !important;
   background: -webkit-linear-gradient(top, #FE8547, #BA72FA) !important;
@@ -1504,7 +1504,7 @@
   background: -ms-linear-gradient(top, #FE8547, #BA72FA) !important;
   background: -o-linear-gradient(top, #FE8547, #BA72FA) !important;
 }
-.u_bg_grad_v_quin_quat {
+.u_grad_v_quin_quat {
   background: #FE8547 !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#FE8547), to(#FE58CF)) !important;
   background: -webkit-linear-gradient(top, #FE8547, #FE58CF) !important;
@@ -1512,7 +1512,7 @@
   background: -ms-linear-gradient(top, #FE8547, #FE58CF) !important;
   background: -o-linear-gradient(top, #FE8547, #FE58CF) !important;
 }
-.u_bg_grad_v_quin_sen {
+.u_grad_v_quin_sen {
   background: #FE8547 !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#FE8547), to(#FEE05C)) !important;
   background: -webkit-linear-gradient(top, #FE8547, #FEE05C) !important;
@@ -1520,7 +1520,7 @@
   background: -ms-linear-gradient(top, #FE8547, #FEE05C) !important;
   background: -o-linear-gradient(top, #FE8547, #FEE05C) !important;
 }
-.u_bg_grad_v_sen {
+.u_grad_v_sen {
   background: #fed628 !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#fed628), to(#FEE05C)) !important;
   background: -webkit-linear-gradient(top, #fed628, #FEE05C) !important;
@@ -1528,7 +1528,7 @@
   background: -ms-linear-gradient(top, #fed628, #FEE05C) !important;
   background: -o-linear-gradient(top, #fed628, #FEE05C) !important;
 }
-.u_bg_grad_v_sen_primary {
+.u_grad_v_sen_primary {
   background: #FEE05C !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#FEE05C), to(#73FE73)) !important;
   background: -webkit-linear-gradient(top, #FEE05C, #73FE73) !important;
@@ -1536,7 +1536,7 @@
   background: -ms-linear-gradient(top, #FEE05C, #73FE73) !important;
   background: -o-linear-gradient(top, #FEE05C, #73FE73) !important;
 }
-.u_bg_grad_v_sen_secondary {
+.u_grad_v_sen_secondary {
   background: #FEE05C !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#FEE05C), to(#22CEED)) !important;
   background: -webkit-linear-gradient(top, #FEE05C, #22CEED) !important;
@@ -1544,7 +1544,7 @@
   background: -ms-linear-gradient(top, #FEE05C, #22CEED) !important;
   background: -o-linear-gradient(top, #FEE05C, #22CEED) !important;
 }
-.u_bg_grad_v_sen_tertiary {
+.u_grad_v_sen_tertiary {
   background: #FEE05C !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#FEE05C), to(#BA72FA)) !important;
   background: -webkit-linear-gradient(top, #FEE05C, #BA72FA) !important;
@@ -1552,7 +1552,7 @@
   background: -ms-linear-gradient(top, #FEE05C, #BA72FA) !important;
   background: -o-linear-gradient(top, #FEE05C, #BA72FA) !important;
 }
-.u_bg_grad_v_sen_quat {
+.u_grad_v_sen_quat {
   background: #FEE05C !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#FEE05C), to(#FE58CF)) !important;
   background: -webkit-linear-gradient(top, #FEE05C, #FE58CF) !important;
@@ -1560,7 +1560,7 @@
   background: -ms-linear-gradient(top, #FEE05C, #FE58CF) !important;
   background: -o-linear-gradient(top, #FEE05C, #FE58CF) !important;
 }
-.u_bg_grad_v_sen_quin {
+.u_grad_v_sen_quin {
   background: #FEE05C !important;
   background: -webkit-gradient(linear, left top, left bottom, from(#FEE05C), to(#FEE05C)) !important;
   background: -webkit-linear-gradient(top, #FEE05C, #FEE05C) !important;
