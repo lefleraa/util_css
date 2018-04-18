@@ -2,33 +2,29 @@
 .@{util_prefix} {
   &_line_clamp {
     &_ellipsis {
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
+      overflow: hidden !important;
+      text-overflow: ellipsis !important;
+      white-space: nowrap !important;
     }
-    &_1 {
+
+    .mixin_line_clamp(@value) {
       overflow: hidden;
       display: -webkit-box;
-      -webkit-line-clamp: 1;
+      -webkit-line-clamp: @value;
       -webkit-box-orient: vertical; 
+    }
+
+    &_1 {
+      .mixin_line_clamp(1) !important;
     }
     &_2 {
-      overflow: hidden;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical; 
+      .mixin_line_clamp(2) !important;
     }
     &_3 {
-      overflow: hidden;
-      display: -webkit-box;
-      -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical; 
+      .mixin_line_clamp(3) !important;
     }
     &_4 {
-      overflow: hidden;
-      display: -webkit-box;
-      -webkit-line-clamp: 4;
-      -webkit-box-orient: vertical; 
+      .mixin_line_clamp(4) !important;
     }
 
   }
