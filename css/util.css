@@ -11641,16 +11641,16 @@ p {
 /*                   ANIMATIONS                  */
 /*///////////////////////////////////////////////*/
 .anim_fade_in_rise {
-  -webkit-animation: FADE_IN_RISE 0.25s 1;
-  -moz-animation: FADE_IN_RISE 0.25s 1;
-  -o-animation: FADE_IN_RISE 0.25s 1;
-  animation: FADE_IN_RISE 0.25s 1;
-}
-.anim_fade_in_rise_quick {
   -webkit-animation: FADE_IN_RISE 0.5s 1;
   -moz-animation: FADE_IN_RISE 0.5s 1;
   -o-animation: FADE_IN_RISE 0.5s 1;
   animation: FADE_IN_RISE 0.5s 1;
+}
+.anim_fade_in_rise_quick {
+  -webkit-animation: FADE_IN_RISE 0.25s 1;
+  -moz-animation: FADE_IN_RISE 0.25s 1;
+  -o-animation: FADE_IN_RISE 0.25s 1;
+  animation: FADE_IN_RISE 0.25s 1;
 }
 .anim_fade_in_rise_long {
   -webkit-animation: FADE_IN_RISE 1s 1;
@@ -11675,16 +11675,16 @@ p {
   }
 }
 .anim_fade_in {
-  -webkit-animation: FADE_IN 0.25s 1;
-  -moz-animation: FADE_IN 0.25s 1;
-  -o-animation: FADE_IN 0.25s 1;
-  animation: FADE_IN 0.25s 1;
-}
-.anim_fade_in_quick {
   -webkit-animation: FADE_IN 0.5s 1;
   -moz-animation: FADE_IN 0.5s 1;
   -o-animation: FADE_IN 0.5s 1;
   animation: FADE_IN 0.5s 1;
+}
+.anim_fade_in_quick {
+  -webkit-animation: FADE_IN 0.25s 1;
+  -moz-animation: FADE_IN 0.25s 1;
+  -o-animation: FADE_IN 0.25s 1;
+  animation: FADE_IN 0.25s 1;
 }
 .anim_fade_in_long {
   -webkit-animation: FADE_IN 1s 1;
@@ -11707,16 +11707,16 @@ p {
   }
 }
 .anim_glide_left {
-  -webkit-animation: GLIDE_LEFT 0.25s 1;
-  -moz-animation: GLIDE_LEFT 0.25s 1;
-  -o-animation: GLIDE_LEFT 0.25s 1;
-  animation: GLIDE_LEFT 0.25s 1;
-}
-.anim_glide_left_quick {
   -webkit-animation: GLIDE_LEFT 0.5s 1;
   -moz-animation: GLIDE_LEFT 0.5s 1;
   -o-animation: GLIDE_LEFT 0.5s 1;
   animation: GLIDE_LEFT 0.5s 1;
+}
+.anim_glide_left_quick {
+  -webkit-animation: GLIDE_LEFT 0.25s 1;
+  -moz-animation: GLIDE_LEFT 0.25s 1;
+  -o-animation: GLIDE_LEFT 0.25s 1;
+  animation: GLIDE_LEFT 0.25s 1;
 }
 .anim_glide_left_long {
   -webkit-animation: GLIDE_LEFT 1s 1;
