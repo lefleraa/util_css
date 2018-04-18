@@ -2483,3 +2483,33 @@
   -o-transform: scale(1.25) !important;
   transform: scale(1.25) !important;
 }
+.u_z_index_1 {
+  z-index: 100;
+}
+.u_z_index_2 {
+  z-index: 200;
+}
+.u_z_index_3 {
+  z-index: 300;
+}
+.u_z_index_4 {
+  z-index: 400;
+}
+.u_z_index_5 {
+  z-index: 500;
+}
+.u_z_index_6 {
+  z-index: 600;
+}
+.u_z_index_7 {
+  z-index: 700;
+}
+.u_z_index_8 {
+  z-index: 800;
+}
+.u_z_index_9 {
+  z-index: 900;
+}
+.u_z_index_10 {
+  z-index: 1000;
+}
