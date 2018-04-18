@@ -1,0 +1,65 @@
+
+.btn {
+  font-family: @font-1;
+  cursor: pointer;
+  .mixin_rounded(3px);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-width: 2px;
+  transition: all 0.1s ease-in-out;
+  &.btn-primary {
+    .mixin_btn(@color-primary, @color-primary, @color-white, lighten(@color-primary, 10%), lighten(@color-primary, 10%), @color-white);
+  }
+  &.btn-primary-dark {
+    .mixin_btn(@color-primary-dark, @color-primary-dark, @color-white, lighten(@color-primary-dark, 10%), lighten(@color-primary-dark, 10%), @color-white);
+  }
+  &.btn-primary-darker {
+    .mixin_btn(@color-primary-darker, @color-primary-darker, @color-white, lighten(@color-primary-darker, 8%), lighten(@color-primary-darker, 8%), @color-white);
+  }
+  &.btn-primary-darkest {
+    .mixin_btn(@color-primary-darkest, @color-primary-darkest, @color-white, lighten(@color-primary-darkest, 6%), lighten(@color-primary-darkest, 8%), @color-white);
+  }
+  &.btn-secondary {
+    .mixin_btn(@color-secondary, @color-secondary, @color-white, lighten(@color-secondary, 10%), lighten(@color-secondary, 10%), @color-white);
+  }
+  &.btn-secondary-dark {
+    .mixin_btn(@color-secondary-dark, @color-secondary-dark, @color-white, lighten(@color-secondary-dark, 10%), lighten(@color-secondary-dark, 10%), @color-white);
+  }
+  &.btn-secondary-darker {
+    .mixin_btn(@color-secondary-darker, @color-secondary-darker, @color-white, lighten(@color-secondary-darker, 8%), lighten(@color-secondary-darker, 8%), @color-white);
+  }
+  &.btn-secondary-darkest {
+    .mixin_btn(@color-secondary-darkest, @color-secondary-darkest, @color-white, lighten(@color-secondary-darkest, 6%), lighten(@color-secondary-darkest, 8%), @color-white);
+  }
+  &.btn-tertiary {
+    .mixin_btn(@color-tertiary, @color-tertiary, @color-white, lighten(@color-tertiary, 10%), lighten(@color-tertiary, 10%), @color-white);
+  }
+  &.btn-tertiary-dark {
+    .mixin_btn(@color-tertiary-dark, @color-tertiary-dark, @color-white, lighten(@color-tertiary-dark, 10%), lighten(@color-tertiary-dark, 10%), @color-white);
+  }
+  &.btn-tertiary-darker {
+    .mixin_btn(@color-tertiary-darker, @color-tertiary-darker, @color-white, lighten(@color-tertiary-darker, 8%), lighten(@color-tertiary-darker, 8%), @color-white);
+  }
+  &.btn-tertiary-darkest {
+    .mixin_btn(@color-tertiary-darkest, @color-tertiary-darkest, @color-white, lighten(@color-tertiary-darkest, 6%), lighten(@color-tertiary-darkest, 8%), @color-white);
+  }
+  &.btn-default {
+    .mixin_btn(@color-gray-lightest, @color-gray-lighter, @color-black, @color-secondary, @color-secondary, @color-white);
+  }
+  &.btn-dark {
+    .mixin_btn(@color-gray-dark, @color-gray-dark, @color-white, lighten(@color-gray-dark, 20%), lighten(@color-gray-dark, 20%), @color-white);
+  }
+  &.btn-white {
+    .mixin_btn(@color-white, @color-gray-lighter, darken(@color-secondary, 10%), @color-secondary, @color-secondary, @color-white);
+  }
+  &.btn-subtle {
+    .mixin_btn(none, none, @color-link, none, none, darken(@color-link, 20%));
+  }
+  &.btn-error {
+    .mixin_btn(@color-error, @color-error, @color-white, lighten(@color-error, 10%), lighten(@color-error, 10%), @color-white);
+  }
+  &.btn-outline {
+    background: none !important;
+  }
+}

@@ -1,0 +1,16 @@
+.mixin_btn(@btn_bg, @btn_border_color, @btn_color, @btn_hover_bg, @btn_hover_border_color, @btn_hover_color) {
+  background: @btn_bg !important;
+  border-color: @btn_border_color !important;
+  color: @btn_color;
+  &.btn-outline {
+    color: @btn_border_color;
+  }
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
+    background: @btn_hover_bg !important;
+    border-color: @btn_hover_border_color !important;
+    color: @btn_hover_color;
+  }
+}

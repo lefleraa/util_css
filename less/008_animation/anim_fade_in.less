@@ -1,0 +1,17 @@
+.anim_fade_in {
+  &_quick {
+    animation: FADE_IN @anim-dur-quick 1;
+  }
+  &_long {
+    animation: FADE_IN @anim-dur-long 1;
+  }
+}
+
+@keyframes FADE_IN {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
