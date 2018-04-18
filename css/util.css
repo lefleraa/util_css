@@ -8819,7 +8819,7 @@ body {
 }
 a,
 a:not([href]):not([tabindex]) {
-  color: #22CEED;
+  color: #73FE73;
   text-decoration: none;
 }
 a:hover,
@@ -8828,7 +8828,7 @@ a:focus,
 a:not([href]):not([tabindex]):focus,
 a:active,
 a:not([href]):not([tabindex]):active {
-  color: #BA72FA;
+  color: #73FE73;
   text-decoration: none;
 }
 h1 {
@@ -8855,11 +8855,11 @@ p {
 .btn {
   font-family: "Avenir", "Helvetica";
   cursor: pointer;
-  border-radius: 3px;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.5px;
   border-width: 2px;
+  border-radius: 3px;
   transition: all 0.1s ease-in-out;
 }
 .btn.btn-primary {
@@ -10942,7 +10942,7 @@ p {
   border-radius: 10px;
 }
 .u_circle {
-  border-radius: 300px;
+  border-radius: 500px;
 }
 .u_pos_rel {
   position: relative;
@@ -10966,10 +10966,10 @@ p {
   vertical-align: bottom;
 }
 .u_translate_self_x {
-  transform: translateX(-50%);
+  transform: translateX(-50%) !important;
 }
 .u_translate_self_y {
-  transform: translateY(-50%);
+  transform: translateY(-50%) !important;
 }
 .u_mt_offset_5 {
   margin-top: -5rem !important;
@@ -11286,6 +11286,9 @@ p {
 /*///////////////////////////////////////////////*/
 /*                   ANIMATIONS                  */
 /*///////////////////////////////////////////////*/
+.anim_fade_in_rise {
+  animation: FADE_IN_RISE 0.25s 1;
+}
 .anim_fade_in_rise_quick {
   animation: FADE_IN_RISE 0.5s 1;
 }
@@ -11302,13 +11305,8 @@ p {
     top: 0;
   }
 }
-@keyframes STICKY_LIST_ITEM_FADE {
-  0% {
-    margin-top: -20px;
-  }
-  100% {
-    margin-top: 0;
-  }
+.anim_fade_in {
+  animation: FADE_IN 0.25s 1;
 }
 .anim_fade_in_quick {
   animation: FADE_IN 0.5s 1;
@@ -11324,6 +11322,9 @@ p {
     opacity: 1;
   }
 }
+.anim_glide_left {
+  animation: GLIDE_LEFT 0.25s 1;
+}
 .anim_glide_left_quick {
   animation: GLIDE_LEFT 0.5s 1;
 }
@@ -11332,9 +11333,11 @@ p {
 }
 @keyframes GLIDE_LEFT {
   0% {
+    opacity: 0;
     margin-left: 30px;
   }
   100% {
+    opacity: 1;
     margin-left: 0px;
   }
 }

@@ -1,17 +1,18 @@
 .anim_fade_in {
+  .mixin_animation(FADE_IN @anim-dur 1);
   &_quick {
-    animation: FADE_IN @anim-dur-quick 1;
+    .mixin_animation(FADE_IN @anim-dur-quick 1);
   }
   &_long {
-    animation: FADE_IN @anim-dur-long 1;
+    .mixin_animation(FADE_IN @anim-dur-long 1);
   }
 }
 
 @keyframes FADE_IN {
   0% {
-    opacity: 0;
+    .mixin_opacity(@opacity-0);
   }
   100% {
-    opacity: 1;
+    .mixin_opacity(@opacity-10);
   }
 }
