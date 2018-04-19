@@ -1653,9 +1653,11 @@
   display: block !important;
 }
 .u_dis_flex {
+  display: -ms-flexbox !important;
   display: flex !important;
 }
 .u_dis_inline_flex {
+  display: -ms-inline-flexbox !important;
   display: inline-flex !important;
 }
 .u_overflow_hidden {
@@ -1711,6 +1713,118 @@
 }
 .u_text_italic {
   font-style: italic !important;
+}
+.u_text_left {
+  text-align: left !important;
+}
+@media screen and (min-width: 1400px) {
+  .u_text_xl_left {
+    text-align: left !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .u_text_lg_left {
+    text-align: left !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .u_text_md_left {
+    text-align: left !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .u_text_sm_left {
+    text-align: left !important;
+  }
+}
+@media screen and (min-width: 576px) {
+  .u_text_xs_left {
+    text-align: left !important;
+  }
+}
+.u_text_center {
+  text-align: center !important;
+}
+@media screen and (min-width: 1400px) {
+  .u_text_xl_center {
+    text-align: center !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .u_text_lg_center {
+    text-align: center !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .u_text_md_center {
+    text-align: center !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .u_text_sm_center {
+    text-align: center !important;
+  }
+}
+@media screen and (min-width: 576px) {
+  .u_text_xs_center {
+    text-align: center !important;
+  }
+}
+.u_text_right {
+  text-align: right !important;
+}
+@media screen and (min-width: 1400px) {
+  .u_text_xl_right {
+    text-align: right !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .u_text_lg_right {
+    text-align: right !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .u_text_md_right {
+    text-align: right !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .u_text_sm_right {
+    text-align: right !important;
+  }
+}
+@media screen and (min-width: 576px) {
+  .u_text_xs_right {
+    text-align: right !important;
+  }
+}
+.u_text_justify {
+  text-align: justify !important;
+}
+@media screen and (min-width: 1400px) {
+  .u_text_xl_justify {
+    text-align: justify !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .u_text_lg_justify {
+    text-align: justify !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .u_text_md_justify {
+    text-align: justify !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .u_text_sm_justify {
+    text-align: justify !important;
+  }
+}
+@media screen and (min-width: 576px) {
+  .u_text_xs_justify {
+    text-align: justify !important;
+  }
 }
 .u_border_0 {
   border: 0px solid #dde3ea !important;

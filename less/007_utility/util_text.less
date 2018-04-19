@@ -37,3 +37,53 @@
 
   }
 }
+
+.@{util_prefix} {
+  &_text {
+
+    .text_align_mq_mixin(@mq, @value, @mq_value) {
+      @media screen and (min-width: @mq_value) { 
+        &_@{mq}_@{value} {
+          text-align: @value !important;
+        }
+      }
+    }
+
+    &_left {
+      text-align: left !important;
+    }
+    .text_align_mq_mixin(xl, left, @mq-xl);
+    .text_align_mq_mixin(lg, left, @mq-lg);
+    .text_align_mq_mixin(md, left, @mq-md);
+    .text_align_mq_mixin(sm, left, @mq-sm);
+    .text_align_mq_mixin(xs, left, @mq-xs);
+
+    &_center {
+      text-align: center !important;
+    }
+    .text_align_mq_mixin(xl, center, @mq-xl);
+    .text_align_mq_mixin(lg, center, @mq-lg);
+    .text_align_mq_mixin(md, center, @mq-md);
+    .text_align_mq_mixin(sm, center, @mq-sm);
+    .text_align_mq_mixin(xs, center, @mq-xs);
+
+    &_right {
+      text-align: right !important;
+    }
+    .text_align_mq_mixin(xl, right, @mq-xl);
+    .text_align_mq_mixin(lg, right, @mq-lg);
+    .text_align_mq_mixin(md, right, @mq-md);
+    .text_align_mq_mixin(sm, right, @mq-sm);
+    .text_align_mq_mixin(xs, right, @mq-xs);
+
+    &_justify {
+      text-align: justify !important;
+    }
+    .text_align_mq_mixin(xl, justify, @mq-xl);
+    .text_align_mq_mixin(lg, justify, @mq-lg);
+    .text_align_mq_mixin(md, justify, @mq-md);
+    .text_align_mq_mixin(sm, justify, @mq-sm);
+    .text_align_mq_mixin(xs, justify, @mq-xs);
+
+  }
+}
