@@ -1,3 +1,6 @@
+
+/**********  BORDER UTILTY  **********/
+
 .mixin-border-array(@i: length(@color-list)) when (@i > 0) {
   .mixin-border-array(@i - 1);
   @color:  extract(@color-list, @i);
