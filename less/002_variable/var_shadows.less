@@ -4,6 +4,7 @@
 @drop-shadow-base-fade: 19%;
 @drop-shadow-exponent:  1.5;
 
+@drop-shadow-0: none;
 @drop-shadow-1: 
   0 
   @drop-shadow-base-Y 
@@ -42,6 +43,7 @@
   fade(@drop-shadow-color, ( @drop-shadow-base-fade - 5 ) );
 
   @shadow-list:
+    0  @drop-shadow-0,
     1  @drop-shadow-1,
     2  @drop-shadow-2,
     3  @drop-shadow-3,

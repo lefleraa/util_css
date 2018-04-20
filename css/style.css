@@ -3670,6 +3670,24 @@ p {
 .u-z-index-10 {
   z-index: 1000 !important;
 }
+.u-shadow-0 {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -o-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.u-shadow-hover-0 {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.u-shadow-hover-0:hover {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -o-box-shadow: none !important;
+  box-shadow: none !important;
+}
 .u-shadow-1 {
   -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.19) !important;
   -moz-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.19) !important;
