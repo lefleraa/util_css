@@ -1,8 +1,8 @@
 .mixin-bg-array(@i: length(@color-list)) when (@i > 0) {
   .mixin-bg-array(@i - 1);
-  @item:   extract(@color-list, @i);
-  @name:   extract(@item, 1);
-  @value:  extract(@item, 2);
+  @item:  extract(@color-list, @i);
+  @name:  extract(@item, 1);
+  @value: extract(@item, 2);
   &-@{name} {
     background: @value !important;
   }

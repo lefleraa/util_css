@@ -1,8 +1,8 @@
 .mixin-color-array(@i: length(@color-list)) when (@i > 0) {
   .mixin-color-array(@i - 1);
-  @color:  extract(@color-list, @i);
-  @name:   extract(@color, 1);
-  @value:  extract(@color, 2);
+  @item:  extract(@color-list, @i);
+  @name:  extract(@item, 1);
+  @value: extract(@item, 2);
   &-@{name} {
     color: @value !important;
   }
