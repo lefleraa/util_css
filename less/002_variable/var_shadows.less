@@ -5,41 +5,41 @@
 @drop-shadow-exponent:  1.5;
 
 @drop-shadow-0: none;
-@drop-shadow-1: 
-  0 
-  @drop-shadow-base-Y 
-  @drop-shadow-base-blur 
-  0 
+@drop-shadow-1:
+  0
+  @drop-shadow-base-Y
+  @drop-shadow-base-blur
+  0
   fade(@drop-shadow-color, @drop-shadow-base-fade);
 @drop-shadow-2:
-  0 
-  (@drop-shadow-base-Y * @drop-shadow-exponent * 1) 
-  (@drop-shadow-base-blur * @drop-shadow-exponent * 1) 
-  0 
+  0
+  (@drop-shadow-base-Y * @drop-shadow-exponent * 1)
+  (@drop-shadow-base-blur * @drop-shadow-exponent * 1)
+  0
   fade(@drop-shadow-color, ( @drop-shadow-base-fade - 1 ) );
 @drop-shadow-3:
-  0 
-  (@drop-shadow-base-Y * @drop-shadow-exponent * 2) 
-  (@drop-shadow-base-blur * @drop-shadow-exponent * 2) 
-  0 
+  0
+  (@drop-shadow-base-Y * @drop-shadow-exponent * 2)
+  (@drop-shadow-base-blur * @drop-shadow-exponent * 2)
+  0
   fade(@drop-shadow-color, ( @drop-shadow-base-fade - 2 ) );
 @drop-shadow-4:
-  0 
-  (@drop-shadow-base-Y * @drop-shadow-exponent * 3) 
-  (@drop-shadow-base-blur * @drop-shadow-exponent * 3) 
-  0 
+  0
+  (@drop-shadow-base-Y * @drop-shadow-exponent * 3)
+  (@drop-shadow-base-blur * @drop-shadow-exponent * 3)
+  0
   fade(@drop-shadow-color, ( @drop-shadow-base-fade - 3 ) );
 @drop-shadow-5:
-  0 
+  0
   (@drop-shadow-base-Y * @drop-shadow-exponent * 4)
-  (@drop-shadow-base-blur * @drop-shadow-exponent * 4) 
-  0 
+  (@drop-shadow-base-blur * @drop-shadow-exponent * 4)
+  0
   fade(@drop-shadow-color, ( @drop-shadow-base-fade - 4 ) );
 @drop-shadow-6:
-  0 
-  (@drop-shadow-base-Y * @drop-shadow-exponent * 5) 
-  (@drop-shadow-base-blur * @drop-shadow-exponent * 5) 
-  0 
+  0
+  (@drop-shadow-base-Y * @drop-shadow-exponent * 5)
+  (@drop-shadow-base-blur * @drop-shadow-exponent * 5)
+  0
   fade(@drop-shadow-color, ( @drop-shadow-base-fade - 5 ) );
 
   @shadow-list:
