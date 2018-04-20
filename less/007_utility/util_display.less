@@ -1,25 +1,28 @@
+.mixin-mq-display(@value; @i: length(@mq-list)) when (@i > 0) {
+  .mixin-mq-display(@value, @i - 1);
+  @mq:     extract(@mq-list, @i);
+  @name:   extract(@mq, 1);
+  @size:   extract(@mq, 2);
+  .mixin (@i) when (@i =< 1) {
+    &-@{value} {
+      display: @value;
+    }
+  }
+  .mixin(@i);
+  @media (min-width: @size) {
+    &-@{name}-@{value} {
+      display: @value;
+    }
+  }
+}
 
 .@{util_prefix} {
-  &_dis {
-    &_none {
-      display: none !important;
-    }
-    &_inline {
-      display: inline !important;
-    }
-    &_inline_block {
-      display: inline-block !important;
-    }
-    &_block {
-      display: block !important;
-    }
-    &_flex {
-      display: -ms-flexbox !important;
-      display: flex !important;
-    }
-    &_inline_flex {
-      display: -ms-inline-flexbox !important;
-      display: inline-flex !important;
-    }
+  &-text {
+    .mixin-mq-display(none);
+    .mixin-mq-display(inline);
+    .mixin-mq-display(inline-block);
+    .mixin-mq-display(block);
+    .mixin-mq-display(flex);
+    .mixin-mq-display(inline-flex);
   }
 }

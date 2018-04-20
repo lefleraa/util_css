@@ -1,3 +1,29 @@
+.mixin_mq_text_align(@value; @i: length(@mq-list)) when (@i > 0) {
+  .mixin_mq_text_align(@value, @i - 1);
+  @mq:     extract(@mq-list, @i);
+  @name:   extract(@mq, 1);
+  @size:   extract(@mq, 2);
+  .mixin (@i) when (@i =< 1) {
+    &_@{value} {
+      text-align: @value;
+    }
+  }
+  .mixin(@i);
+  @media (min-width: @size) {
+    &_@{name}_@{value} {
+      text-align: @value;
+    }
+  }
+}
+
+.@{util_prefix} {
+  &_text {
+    .mixin_mq_text_align(left);
+    .mixin_mq_text_align(center);
+    .mixin_mq_text_align(right);
+    .mixin_mq_text_align(justify);
+  }
+}
 
 .@{util_prefix} {
   &_text {
@@ -35,32 +61,5 @@
       font-style: italic !important;
     }
 
-  }
-}
-
-.mixin_mq_text_align(@value; @i: length(@mq-list)) when (@i > 0) {
-  .mixin_mq_text_align(@value, @i - 1);
-  @mq:     extract(@mq-list, @i);
-  @name:   extract(@mq, 1);
-  @size:   extract(@mq, 2);
-  .mixin (@i) when (@i =< 1) {
-    &_@{value} {
-      text-align: @value;
-    }
-  }
-  .mixin(@i);
-  @media (min-width: @size) {
-    &_@{name}_@{value} {
-      text-align: @value;
-    }
-  }
-}
-
-.@{util_prefix} {
-  &_text {
-    .mixin_mq_text_align(left);
-    .mixin_mq_text_align(center);
-    .mixin_mq_text_align(right);
-    .mixin_mq_text_align(justify);
   }
 }

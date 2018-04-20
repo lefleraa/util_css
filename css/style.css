@@ -1995,25 +1995,173 @@ p {
 .u_nowrap {
   white-space: nowrap !important;
 }
-.u_dis_none {
-  display: none !important;
+.u-text-none {
+  display: none;
 }
-.u_dis_inline {
-  display: inline !important;
+@media (min-width: 1400px) {
+  .u-text-xl-none {
+    display: none;
+  }
 }
-.u_dis_inline_block {
-  display: inline-block !important;
+@media (min-width: 1200px) {
+  .u-text-lg-none {
+    display: none;
+  }
 }
-.u_dis_block {
-  display: block !important;
+@media (min-width: 992px) {
+  .u-text-md-none {
+    display: none;
+  }
 }
-.u_dis_flex {
-  display: -ms-flexbox !important;
-  display: flex !important;
+@media (min-width: 768px) {
+  .u-text-sm-none {
+    display: none;
+  }
 }
-.u_dis_inline_flex {
-  display: -ms-inline-flexbox !important;
-  display: inline-flex !important;
+@media (min-width: 576px) {
+  .u-text-xs-none {
+    display: none;
+  }
+}
+.u-text-inline {
+  display: inline;
+}
+@media (min-width: 1400px) {
+  .u-text-xl-inline {
+    display: inline;
+  }
+}
+@media (min-width: 1200px) {
+  .u-text-lg-inline {
+    display: inline;
+  }
+}
+@media (min-width: 992px) {
+  .u-text-md-inline {
+    display: inline;
+  }
+}
+@media (min-width: 768px) {
+  .u-text-sm-inline {
+    display: inline;
+  }
+}
+@media (min-width: 576px) {
+  .u-text-xs-inline {
+    display: inline;
+  }
+}
+.u-text-inline-block {
+  display: inline-block;
+}
+@media (min-width: 1400px) {
+  .u-text-xl-inline-block {
+    display: inline-block;
+  }
+}
+@media (min-width: 1200px) {
+  .u-text-lg-inline-block {
+    display: inline-block;
+  }
+}
+@media (min-width: 992px) {
+  .u-text-md-inline-block {
+    display: inline-block;
+  }
+}
+@media (min-width: 768px) {
+  .u-text-sm-inline-block {
+    display: inline-block;
+  }
+}
+@media (min-width: 576px) {
+  .u-text-xs-inline-block {
+    display: inline-block;
+  }
+}
+.u-text-block {
+  display: block;
+}
+@media (min-width: 1400px) {
+  .u-text-xl-block {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .u-text-lg-block {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  .u-text-md-block {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  .u-text-sm-block {
+    display: block;
+  }
+}
+@media (min-width: 576px) {
+  .u-text-xs-block {
+    display: block;
+  }
+}
+.u-text-flex {
+  display: flex;
+}
+@media (min-width: 1400px) {
+  .u-text-xl-flex {
+    display: flex;
+  }
+}
+@media (min-width: 1200px) {
+  .u-text-lg-flex {
+    display: flex;
+  }
+}
+@media (min-width: 992px) {
+  .u-text-md-flex {
+    display: flex;
+  }
+}
+@media (min-width: 768px) {
+  .u-text-sm-flex {
+    display: flex;
+  }
+}
+@media (min-width: 576px) {
+  .u-text-xs-flex {
+    display: flex;
+  }
+}
+.u-text-inline-flex {
+  display: inline-flex;
+}
+@media (min-width: 1400px) {
+  .u-text-xl-inline-flex {
+    display: inline-flex;
+  }
+}
+@media (min-width: 1200px) {
+  .u-text-lg-inline-flex {
+    display: inline-flex;
+  }
+}
+@media (min-width: 992px) {
+  .u-text-md-inline-flex {
+    display: inline-flex;
+  }
+}
+@media (min-width: 768px) {
+  .u-text-sm-inline-flex {
+    display: inline-flex;
+  }
+}
+@media (min-width: 576px) {
+  .u-text-xs-inline-flex {
+    display: inline-flex;
+  }
 }
 .u_overflow_hidden {
   overflow: hidden !important;
@@ -2038,36 +2186,6 @@ p {
 }
 .u_cursor_grabbing {
   cursor: grabbing !important;
-}
-.u_text_underline {
-  text-decoration: underline !important;
-}
-.u_text_uppercase {
-  text-transform: uppercase !important;
-}
-.u_text_lowercase {
-  text-transform: lowercase !important;
-}
-.u_text_capitalize {
-  text-transform: capitalize !important;
-}
-.u_text_bold {
-  font-weight: 700 !important;
-}
-.u_text_medium {
-  font-weight: 500 !important;
-}
-.u_text_normal {
-  font-weight: 400 !important;
-}
-.u_text_light {
-  font-weight: 300 !important;
-}
-.u_text_fine {
-  font-weight: 100 !important;
-}
-.u_text_italic {
-  font-style: italic !important;
 }
 .u_text_left {
   text-align: left;
@@ -2180,6 +2298,36 @@ p {
   .u_text_xs_justify {
     text-align: justify;
   }
+}
+.u_text_underline {
+  text-decoration: underline !important;
+}
+.u_text_uppercase {
+  text-transform: uppercase !important;
+}
+.u_text_lowercase {
+  text-transform: lowercase !important;
+}
+.u_text_capitalize {
+  text-transform: capitalize !important;
+}
+.u_text_bold {
+  font-weight: 700 !important;
+}
+.u_text_medium {
+  font-weight: 500 !important;
+}
+.u_text_normal {
+  font-weight: 400 !important;
+}
+.u_text_light {
+  font-weight: 300 !important;
+}
+.u_text_fine {
+  font-weight: 100 !important;
+}
+.u_text_italic {
+  font-style: italic !important;
 }
 .u_border_0 {
   border: 0px solid #dde3ea !important;
