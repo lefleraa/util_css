@@ -1,8 +1,8 @@
 .mixin-mq-display(@value; @i: length(@mq-list)) when (@i > 0) {
   .mixin-mq-display(@value, @i - 1);
-  @mq:     extract(@mq-list, @i);
-  @name:   extract(@mq, 1);
-  @size:   extract(@mq, 2);
+  @item:   extract(@mq-list, @i);
+  @name:   extract(@item, 1);
+  @size:   extract(@item, 2);
   .mixin (@i) when (@i =< 1) {
     &-@{value} {
       display: @value !important;
