@@ -1,35 +1,15 @@
+.mixin-z-index-array(@i: length(@z-index-list)) when (@i > 0) {
+  .mixin-z-index-array(@i - 1);
+  @z-index: extract(@z-index-list, @i);
+  @name:    extract(@z-index, 1);
+  @value:   extract(@z-index, 2);
+  &-@{name} {
+    z-index: @value;
+  }
+}
 
 .@{util_prefix} {
-  &_z_index {
-    &_1 {
-      z-index: @z-index-1;
-    }
-    &_2 {
-      z-index: @z-index-2;
-    }
-    &_3 {
-      z-index: @z-index-3;
-    }
-    &_4 {
-      z-index: @z-index-4;
-    }
-    &_5 {
-      z-index: @z-index-5;
-    }
-    &_6 {
-      z-index: @z-index-6;
-    }
-    &_7 {
-      z-index: @z-index-7;
-    }
-    &_8 {
-      z-index: @z-index-8;
-    }
-    &_9 {
-      z-index: @z-index-9;
-    }
-    &_10 {
-      z-index: @z-index-10;
-    }
+  &-z-index {
+    .mixin-z-index-array();
   }
 }

@@ -1,356 +1,77 @@
+.mixin-grad-array(@name, @color) {
+
+  &-@{name}-primary,
+  &-a-@{name}-primary {
+    .mixin-gradient-a(@color, @color-primary) !important;
+  }
+  &-@{name}-secondary,
+  &-a-@{name}-secondary {
+    .mixin-gradient-a(@color, @color-secondary) !important;
+  }
+  &-@{name}-tertiary, 
+  &-a-@{name}-tertiary {
+    .mixin-gradient-a(@color, @color-tertiary) !important;
+  }
+  &-@{name}-quat,
+  &-a-@{name}-quat {
+    .mixin-gradient-a(@color, @color-quat) !important;
+  }
+  &-@{name}-quin,
+  &-a-@{name}-quin {
+    .mixin-gradient-a(@color, @color-quin) !important;
+  }
+  &-@{name}-sen,
+  &-a-@{name}-sen {
+    .mixin-gradient-a(@color, @color-sen) !important;
+  }
+
+  &-v-@{name}-primary {
+    .mixin-gradient-v(@color, @color-primary) !important;
+  }
+  &-v-@{name}-secondary {
+    .mixin-gradient-v(@color, @color-secondary) !important;
+  }
+  &-v-@{name}-tertiary {
+    .mixin-gradient-v(@color, @color-tertiary) !important;
+  }
+  &-v-@{name}-quat {
+    .mixin-gradient-v(@color, @color-quat) !important;
+  }
+  &-v-@{name}-quin {
+    .mixin-gradient-v(@color, @color-quin) !important;
+  }
+  &-v-@{name}-sen {
+    .mixin-gradient-v(@color, @color-sen) !important;
+  }
+
+  &-h-@{name}-primary {
+    .mixin-gradient-h(@color, @color-primary) !important;
+  }
+  &-h-@{name}-secondary {
+    .mixin-gradient-h(@color, @color-secondary) !important;
+  }
+  &-h-@{name}-tertiary {
+    .mixin-gradient-h(@color, @color-tertiary) !important;
+  }
+  &-h-@{name}-quat {
+    .mixin-gradient-h(@color, @color-quat) !important;
+  }
+  &-h-@{name}-quin {
+    .mixin-gradient-h(@color, @color-quin) !important;
+  }
+  &-h-@{name}-sen {
+    .mixin-gradient-h(@color, @color-sen) !important;
+  }
+
+}
 
 .@{util_prefix} {
-  &_grad {
-    &_a {
-
-      &_primary {
-        .mixin_gradient_a(@color-primary-darker, @color-primary) !important;
-        &_secondary {
-          .mixin_gradient_a(@color-primary, @color-secondary) !important;
-        }
-        &_tertiary {
-          .mixin_gradient_a(@color-primary, @color-tertiary) !important;
-        }
-        &_quat {
-          .mixin_gradient_a(@color-primary, @color-quat) !important;
-        }
-        &_quin {
-          .mixin_gradient_a(@color-primary, @color-quin) !important;
-        }
-        &_sen {
-          .mixin_gradient_a(@color-primary, @color-sen) !important;
-        }
-      }
-
-      &_secondary {
-        .mixin_gradient_a(@color-secondary-darker, @color-secondary) !important;
-        &_primary {
-          .mixin_gradient_a(@color-secondary, @color-primary) !important;
-        }
-        &_tertiary {
-          .mixin_gradient_a(@color-secondary, @color-tertiary) !important;
-        }
-        &_quat {
-          .mixin_gradient_a(@color-secondary, @color-quat) !important;
-        }
-        &_quin {
-          .mixin_gradient_a(@color-secondary, @color-quin) !important;
-        }
-        &_sen {
-          .mixin_gradient_a(@color-secondary, @color-sen) !important;
-        }
-      }
-      
-      &_tertiary {
-        .mixin_gradient_a(@color-tertiary-darker, @color-tertiary) !important;
-        &_primary {
-          .mixin_gradient_a(@color-tertiary, @color-primary) !important;
-        }
-        &_secondary {
-          .mixin_gradient_a(@color-tertiary, @color-secondary) !important;
-        }
-        &_quat {
-          .mixin_gradient_a(@color-tertiary, @color-quat) !important;
-        }
-        &_quin {
-          .mixin_gradient_a(@color-tertiary, @color-quin) !important;
-        }
-        &_sen {
-          .mixin_gradient_a(@color-tertiary, @color-sen) !important;
-        }
-      }
-              
-      &_quat {
-        .mixin_gradient_a(@color-quat-darker, @color-quat) !important;
-        &_primary {
-          .mixin_gradient_a(@color-quat, @color-primary) !important;
-        }
-        &_secondary {
-          .mixin_gradient_a(@color-quat, @color-secondary) !important;
-        }
-        &_tertiary {
-          .mixin_gradient_a(@color-quat, @color-tertiary) !important;
-        }
-        &_quin {
-          .mixin_gradient_a(@color-quat, @color-quin) !important;
-        }
-        &_sen {
-          .mixin_gradient_a(@color-quat, @color-sen) !important;
-        }
-      }
-      
-      &_quin {
-        .mixin_gradient_a(@color-quin-darker, @color-quin) !important;
-        &_primary {
-          .mixin_gradient_a(@color-quin, @color-primary) !important;
-        }
-        &_secondary {
-          .mixin_gradient_a(@color-quin, @color-secondary) !important;
-        }
-        &_tertiary {
-          .mixin_gradient_a(@color-quin, @color-tertiary) !important;
-        }
-        &_quat {
-          .mixin_gradient_a(@color-quin, @color-quat) !important;
-        }
-        &_sen {
-          .mixin_gradient_a(@color-quin, @color-sen) !important;
-        }
-      }
-      
-      &_sen {
-        .mixin_gradient_a(@color-sen-darker, @color-sen) !important;
-        &_primary {
-          .mixin_gradient_a(@color-sen, @color-primary) !important;
-        }
-        &_secondary {
-          .mixin_gradient_a(@color-sen, @color-secondary) !important;
-        }
-        &_tertiary {
-          .mixin_gradient_a(@color-sen, @color-tertiary) !important;
-        }
-        &_quat {
-          .mixin_gradient_a(@color-sen, @color-quat) !important;
-        }
-        &_quin {
-          .mixin_gradient_a(@color-sen, @color-sen) !important;
-        }
-      }
-
-    }
-    &_h {
-
-      &_primary {
-        .mixin_gradient_h(@color-primary-darker, @color-primary) !important;
-        &_secondary {
-          .mixin_gradient_h(@color-primary, @color-secondary) !important;
-        }
-        &_tertiary {
-          .mixin_gradient_h(@color-primary, @color-tertiary) !important;
-        }
-        &_quat {
-          .mixin_gradient_h(@color-primary, @color-quat) !important;
-        }
-        &_quin {
-          .mixin_gradient_h(@color-primary, @color-quin) !important;
-        }
-        &_sen {
-          .mixin_gradient_h(@color-primary, @color-sen) !important;
-        }
-      }
-
-      &_secondary {
-        .mixin_gradient_h(@color-secondary-darker, @color-secondary) !important;
-        &_primary {
-          .mixin_gradient_h(@color-secondary, @color-primary) !important;
-        }
-        &_tertiary {
-          .mixin_gradient_h(@color-secondary, @color-tertiary) !important;
-        }
-        &_quat {
-          .mixin_gradient_h(@color-secondary, @color-quat) !important;
-        }
-        &_quin {
-          .mixin_gradient_h(@color-secondary, @color-quin) !important;
-        }
-        &_sen {
-          .mixin_gradient_h(@color-secondary, @color-sen) !important;
-        }
-      }
-      
-      &_tertiary {
-        .mixin_gradient_h(@color-tertiary-darker, @color-tertiary) !important;
-        &_primary {
-          .mixin_gradient_h(@color-tertiary, @color-primary) !important;
-        }
-        &_secondary {
-          .mixin_gradient_h(@color-tertiary, @color-secondary) !important;
-        }
-        &_quat {
-          .mixin_gradient_h(@color-tertiary, @color-quat) !important;
-        }
-        &_quin {
-          .mixin_gradient_h(@color-tertiary, @color-quin) !important;
-        }
-        &_sen {
-          .mixin_gradient_h(@color-tertiary, @color-sen) !important;
-        }
-      }
-              
-      &_quat {
-        .mixin_gradient_h(@color-quat-darker, @color-quat) !important;
-        &_primary {
-          .mixin_gradient_h(@color-quat, @color-primary) !important;
-        }
-        &_secondary {
-          .mixin_gradient_h(@color-quat, @color-secondary) !important;
-        }
-        &_tertiary {
-          .mixin_gradient_h(@color-quat, @color-tertiary) !important;
-        }
-        &_quin {
-          .mixin_gradient_h(@color-quat, @color-quin) !important;
-        }
-        &_sen {
-          .mixin_gradient_h(@color-quat, @color-sen) !important;
-        }
-      }
-      
-      &_quin {
-        .mixin_gradient_h(@color-quin-darker, @color-quin) !important;
-        &_primary {
-          .mixin_gradient_h(@color-quin, @color-primary) !important;
-        }
-        &_secondary {
-          .mixin_gradient_h(@color-quin, @color-secondary) !important;
-        }
-        &_tertiary {
-          .mixin_gradient_h(@color-quin, @color-tertiary) !important;
-        }
-        &_quat {
-          .mixin_gradient_h(@color-quin, @color-quat) !important;
-        }
-        &_sen {
-          .mixin_gradient_h(@color-quin, @color-sen) !important;
-        }
-      }
-      
-      &_sen {
-        .mixin_gradient_h(@color-sen-darker, @color-sen) !important;
-        &_primary {
-          .mixin_gradient_h(@color-sen, @color-primary) !important;
-        }
-        &_secondary {
-          .mixin_gradient_h(@color-sen, @color-secondary) !important;
-        }
-        &_tertiary {
-          .mixin_gradient_h(@color-sen, @color-tertiary) !important;
-        }
-        &_quat {
-          .mixin_gradient_h(@color-sen, @color-quat) !important;
-        }
-        &_quin {
-          .mixin_gradient_h(@color-sen, @color-sen) !important;
-        }
-      }
-
-    }
-    &_v {
-
-      &_primary {
-        .mixin_gradient_v(@color-primary-darker, @color-primary) !important;
-        &_secondary {
-          .mixin_gradient_v(@color-primary, @color-secondary) !important;
-        }
-        &_tertiary {
-          .mixin_gradient_v(@color-primary, @color-tertiary) !important;
-        }
-        &_quat {
-          .mixin_gradient_v(@color-primary, @color-quat) !important;
-        }
-        &_quin {
-          .mixin_gradient_v(@color-primary, @color-quin) !important;
-        }
-        &_sen {
-          .mixin_gradient_v(@color-primary, @color-sen) !important;
-        }
-      }
-
-      &_secondary {
-        .mixin_gradient_v(@color-secondary-darker, @color-secondary) !important;
-        &_primary {
-          .mixin_gradient_v(@color-secondary, @color-primary) !important;
-        }
-        &_tertiary {
-          .mixin_gradient_v(@color-secondary, @color-tertiary) !important;
-        }
-        &_quat {
-          .mixin_gradient_v(@color-secondary, @color-quat) !important;
-        }
-        &_quin {
-          .mixin_gradient_v(@color-secondary, @color-quin) !important;
-        }
-        &_sen {
-          .mixin_gradient_v(@color-secondary, @color-sen) !important;
-        }
-      }
-      
-      &_tertiary {
-        .mixin_gradient_v(@color-tertiary-darker, @color-tertiary) !important;
-        &_primary {
-          .mixin_gradient_v(@color-tertiary, @color-primary) !important;
-        }
-        &_secondary {
-          .mixin_gradient_v(@color-tertiary, @color-secondary) !important;
-        }
-        &_quat {
-          .mixin_gradient_v(@color-tertiary, @color-quat) !important;
-        }
-        &_quin {
-          .mixin_gradient_v(@color-tertiary, @color-quin) !important;
-        }
-        &_sen {
-          .mixin_gradient_v(@color-tertiary, @color-sen) !important;
-        }
-      }
-              
-      &_quat {
-        .mixin_gradient_v(@color-quat-darker, @color-quat) !important;
-        &_primary {
-          .mixin_gradient_v(@color-quat, @color-primary) !important;
-        }
-        &_secondary {
-          .mixin_gradient_v(@color-quat, @color-secondary) !important;
-        }
-        &_tertiary {
-          .mixin_gradient_v(@color-quat, @color-tertiary) !important;
-        }
-        &_quin {
-          .mixin_gradient_v(@color-quat, @color-quin) !important;
-        }
-        &_sen {
-          .mixin_gradient_v(@color-quat, @color-sen) !important;
-        }
-      }
-      
-      &_quin {
-        .mixin_gradient_v(@color-quin-darker, @color-quin) !important;
-        &_primary {
-          .mixin_gradient_v(@color-quin, @color-primary) !important;
-        }
-        &_secondary {
-          .mixin_gradient_v(@color-quin, @color-secondary) !important;
-        }
-        &_tertiary {
-          .mixin_gradient_v(@color-quin, @color-tertiary) !important;
-        }
-        &_quat {
-          .mixin_gradient_v(@color-quin, @color-quat) !important;
-        }
-        &_sen {
-          .mixin_gradient_v(@color-quin, @color-sen) !important;
-        }
-      }
-      
-      &_sen {
-        .mixin_gradient_v(@color-sen-darker, @color-sen) !important;
-        &_primary {
-          .mixin_gradient_v(@color-sen, @color-primary) !important;
-        }
-        &_secondary {
-          .mixin_gradient_v(@color-sen, @color-secondary) !important;
-        }
-        &_tertiary {
-          .mixin_gradient_v(@color-sen, @color-tertiary) !important;
-        }
-        &_quat {
-          .mixin_gradient_v(@color-sen, @color-quat) !important;
-        }
-        &_quin {
-          .mixin_gradient_v(@color-sen, @color-sen) !important;
-        }
-      }
-
-    }
+  &-grad {
+    .mixin-grad-array(primary,   @color-primary);
+    .mixin-grad-array(secondary, @color-secondary);
+    .mixin-grad-array(tertiary,  @color-tertiary);
+    .mixin-grad-array(quat,      @color-quat);
+    .mixin-grad-array(quin,      @color-quin);
+    .mixin-grad-array(sen,       @color-sen);
   }
 }

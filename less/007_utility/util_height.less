@@ -1,72 +1,66 @@
 .@{util_prefix} {
-  &_height {
+  &-height {
 
-    .mixin_height(@value) {
-      height: @value;
-      max-height: @value;
-      min-height: @value;
+    &-1 {
+      .mixin-height(@size_scale_interval) !important;
     }
-
-    &_1 {
-      .mixin_height(20px) !important;
+    &-2 {
+      .mixin-height(@size_scale_interval*2) !important;
     }
-    &_2 {
-      .mixin_height(40px) !important;
+    &-3 {
+      .mixin-height(@size_scale_interval*3) !important;
     }
-    &_3 {
-      .mixin_height(60px) !important;
+    &-4 {
+      .mixin-height(@size_scale_interval*4) !important;
     }
-    &_4 {
-      .mixin_height(80px) !important;
+    &-5 {
+      .mixin-height(@size_scale_interval*5) !important;
     }
-    &_5 {
-      .mixin_height(100px) !important;
+    &-6 {
+      .mixin-height(@size_scale_interval*6) !important;
     }
-    &_6 {
-      .mixin_height(120px) !important;
+    &-7 {
+      .mixin-height(@size_scale_interval*7) !important;
     }
-    &_7 {
-      .mixin_height(140px) !important;
+    &-8 {
+      .mixin-height(@size_scale_interval*8) !important;
     }
-    &_8 {
-      .mixin_height(160px) !important;
+    &-9 {
+      .mixin-height(@size_scale_interval*9) !important;
     }
-    &_9 {
-      .mixin_height(180px) !important;
+    &-10 {
+      .mixin-height(@size_scale_interval*10) !important;
     }
-    &_10 {
-      .mixin_height(200px) !important;
-    }
-    &_p {
-      &_1 {
-        .mixin_height(10%) !important;
+    &-p {
+      &-1 {
+        .mixin-height(10%) !important;
       }
-      &_2 {
-        .mixin_height(20%) !important;
+      &-2 {
+        .mixin-height(20%) !important;
       }
-      &_3 {
-        .mixin_height(30%) !important;
+      &-3 {
+        .mixin-height(30%) !important;
       }
-      &_4 {
-        .mixin_height(40%) !important;
+      &-4 {
+        .mixin-height(40%) !important;
       }
-      &_5 {
-        .mixin_height(50%) !important;
+      &-5 {
+        .mixin-height(50%) !important;
       }
-      &_6 {
-        .mixin_height(60%) !important;
+      &-6 {
+        .mixin-height(60%) !important;
       }
-      &_7 {
-        .mixin_height(70%) !important;
+      &-7 {
+        .mixin-height(70%) !important;
       }
-      &_8 {
-        .mixin_height(80%) !important;
+      &-8 {
+        .mixin-height(80%) !important;
       }
-      &_9 {
-        .mixin_height(90%) !important;
+      &-9 {
+        .mixin-height(90%) !important;
       }
-      &_10 {
-        .mixin_height(100%) !important;
+      &-10 {
+        .mixin-height(100%) !important;
       }     
     }
   }

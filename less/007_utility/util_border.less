@@ -1,300 +1,55 @@
-
-.@{util_prefix} {
-  &_border {
-    &_0 {
-      border: 0px solid @color-border !important;
-    }
-    &_1 {
-      border: 1px solid @color-border !important;
-    }
-    &_2 {
-      border: 2px solid @color-border !important;
-    }
-    &_3 {
-      border: 3px solid @color-border !important;
-    }
-    &_4 {
-      border: 4px solid @color-border !important;
-    }
-    &_5 {
-      border: 5px solid @color-border !important;
-    }
-    &_l {
-      &_0 {
-        border-left: 0px solid @color-border !important;
-      }
-      &_1 {
-        border-left: 1px solid @color-border !important;
-      }
-      &_2 {
-        border-left: 2px solid @color-border !important;
-      }
-      &_3 {
-        border-left: 3px solid @color-border !important;
-      }
-      &_4 {
-        border-left: 4px solid @color-border !important;
-      }
-      &_5 {
-        border-left: 5px solid @color-border !important;
-      }
-    }
-    &_r {
-      &_0 {
-        border-right: 0px solid @color-border !important;
-      }
-      &_1 {
-        border-right: 1px solid @color-border !important;
-      }
-      &_2 {
-        border-right: 2px solid @color-border !important;
-      }
-      &_3 {
-        border-right: 3px solid @color-border !important;
-      }
-      &_4 {
-        border-right: 4px solid @color-border !important;
-      }
-      &_5 {
-        border-right: 5px solid @color-border !important;
-      }
-    }
-    &_t {
-      &_0 {
-        border-top: 0px solid @color-border !important;
-      }
-      &_1 {
-        border-top: 1px solid @color-border !important;
-      }
-      &_2 {
-        border-top: 2px solid @color-border !important;
-      }
-      &_3 {
-        border-top: 3px solid @color-border !important;
-      }
-      &_4 {
-        border-top: 4px solid @color-border !important;
-      }
-      &_5 {
-        border-top: 5px solid @color-border !important;
-      }
-    }
-    &_b {
-      &_0 {
-        border-bottom: 0px solid @color-border !important;
-      }
-      &_1 {
-        border-bottom: 1px solid @color-border !important;
-      }
-      &_2 {
-        border-bottom: 2px solid @color-border !important;
-      }
-      &_3 {
-        border-bottom: 3px solid @color-border !important;
-      }
-      &_4 {
-        border-bottom: 4px solid @color-border !important;
-      }
-      &_5 {
-        border-bottom: 5px solid @color-border !important;
-      }
-    }
-    &_hover {
-      &_0 {
-        &:hover {
-          border: 0px solid transparent !important;
-        }
-      }
+.mixin-border-array(@i: length(@color-list)) when (@i > 0) {
+  .mixin-border-array(@i - 1);
+  @mq:     extract(@color-list, @i);
+  @name:   extract(@mq, 1);
+  @value:  extract(@mq, 2);
+  &-@{name} {
+    border-color: @value;
+  }
+  &-hover-@{name} {
+    .mixin-transition(all 0.1s ease-in-out);
+    &:hover {
+      border-color: @value;
     }
   }
 }
 
 .@{util_prefix} {
-  &_border_color {
-
-    &_white {
-      border-color: @color-white !important;
-    }
-    &_black {
-      border-color: @color-black !important;
-    }
-
-    &_primary {
-      border-color: @color-primary !important;
-      &_dark {
-        border-color: @color-primary-dark !important;
-      }
-      &_darker {
-        border-color: @color-primary-darker !important;
-      }
-      &_darkest {
-        border-color: @color-primary-darkest !important;
-      }
-    }
-
-    &_secondary {
-      border-color: @color-secondary !important;
-      &_dark {
-        border-color: @color-secondary-dark !important;
-      }
-      &_darker {
-        border-color: @color-secondary-darker !important;
-      }
-      &_darkest {
-        border-color: @color-secondary-darkest !important;
-      }
-    }
-
-    &_tertiary {
-      border-color: @color-tertiary !important;
-      &_dark {
-        border-color: @color-tertiary-dark !important;
-      }
-      &_darker {
-        border-color: @color-tertiary-darker !important;
-      }
-      &_darkest {
-        border-color: @color-tertiary-darkest !important;
-      }
-    }
-
-    &_quat {
-      border-color: @color-quat !important;
-      &_dark {
-        border-color: @color-quat-dark !important;
-      }
-      &_darker {
-        border-color: @color-quat-darker !important;
-      }
-      &_darkest {
-        border-color: @color-quat-darkest !important;
-      }
-    }
-
-    &_quin {
-      border-color: @color-quin !important;
-      &_dark {
-        border-color: @color-quin-dark !important;
-      }
-      &_darker {
-        border-color: @color-quin-darker !important;
-      }
-      &_darkest {
-        border-color: @color-quin-darkest !important;
-      }
-    }
-
-    &_sen {
-      border-color: @color-sen !important;
-      &_dark {
-        border-color: @color-sen-dark !important;
-      }
-      &_darker {
-        border-color: @color-sen-darker !important;
-      }
-      &_darkest {
-        border-color: @color-sen-darkest !important;
-      }
-    }
-
-    &_error {
-      border-color: @color-error !important;
-    }
-    &_warning {
-      border-color: @color-warning !important;
-    }
-    &_success {
-      border-color: @color-success !important;
-    }
-    &_confirm {
-      border-color: @color-confirm !important;
-    }
-
-    &_gray {
-      border-color: @color-gray !important;
-      &_lightest {
-        border-color: @color-gray-lightest !important;
-      }
-      &_lighter {
-        border-color: @color-gray-lighter !important;
-      }
-      &_light {
-        border-color: @color-gray-light !important;
-      }
-      &_dark {
-        border-color: @color-gray-dark !important;
-      }
-      &_darker {
-        border-color: @color-gray-darker !important;
-      }
-      &_darkest {
-        border-color: @color-gray-darkest !important;
-      }
-    }
-
+  &-border {
+    .mixin-border-array();
   }
-  &_border_inner_color {
+}
 
-    &_gray {
-      .mixin_box_shadow(inset 0 0 0 2px @color-gray) !important;
-      &_darkest {
-        .mixin_box_shadow(inset 0 0 0 2px @color-gray-darkest) !important;
-      }
-      &_darker {
-        .mixin_box_shadow(inset 0 0 0 2px @color-gray-darker) !important;
-      }
-      &_dark {
-        .mixin_box_shadow(inset 0 0 0 2px @color-gray-dark) !important;
-      }
-      &_light {
-        .mixin_box_shadow(inset 0 0 0 2px @color-gray-light) !important;
-      }
-      &_lighter {
-        .mixin_box_shadow(inset 0 0 0 2px @color-gray-lighter) !important;
-      }
-      &_lightest {
-        .mixin_box_shadow(inset 0 0 0 2px @color-gray-lightest) !important;
-      }
-    }
+@border-width-list:
+  1,
+  2,
+  3,
+  4,
+  5,
+  0;
 
-    &_white {
-      .mixin_box_shadow(inset 0 0 0 2px @color-white) !important;
-    }
-    &_black {
-      .mixin_box_shadow(inset 0 0 0 2px @color-black) !important;
-    }
-    
-    &_primary {
-      .mixin_box_shadow(inset 0 0 0 2px @color-primary) !important;
-    }
-    &_secondary {
-      .mixin_box_shadow(inset 0 0 0 2px @color-secondary) !important;
-    }
-    &_tertiary {
-      .mixin_box_shadow(inset 0 0 0 2px @color-tertiary) !important;
-    }
-    &_quat {
-      .mixin_box_shadow(inset 0 0 0 2px @color-quat) !important;
-    }
-    &_quin {
-      .mixin_box_shadow(inset 0 0 0 2px @color-quin) !important;
-    }
-    &_sen {
-      .mixin_box_shadow(inset 0 0 0 2px @color-sen) !important;
-    }
+.mixin-border-width-array(@property; @i: length(@border-width-list)) when (@i > 0) {
+  .mixin-border-width-array(@property, @i - 1);
+  @width: extract(@border-width-list, @i);
+  &-@{width} {
+    @{property}: ~"@{width}px";
+  }
+}
 
-    &_error {
-      .mixin_box_shadow(inset 0 0 0 2px @color-error) !important;
+.@{util_prefix} {
+  &-border {
+    .mixin-border-width-array(border);
+    &-l {
+      .mixin-border-width-array(border-left);
     }
-    &_warning {
-      .mixin_box_shadow(inset 0 0 0 2px @color-warning) !important;
+    &-r {
+      .mixin-border-width-array(border-right);
     }
-    &_success {
-      .mixin_box_shadow(inset 0 0 0 2px @color-success) !important;
+    &-t {
+      .mixin-border-width-array(border-top);
     }
-    &_confirm {
-      .mixin_box_shadow(inset 0 0 0 2px @color-confirm) !important;
+    &-b {
+      .mixin-border-width-array(border-bottom);
     }
-
   }
 }

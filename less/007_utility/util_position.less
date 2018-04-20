@@ -1,27 +1,40 @@
+.mixin-pos-display(@value; @i: length(@mq-list)) when (@i > 0) {
+  .mixin-pos-display(@value, @i - 1);
+  @mq:     extract(@mq-list, @i);
+  @name:   extract(@mq, 1);
+  @size:   extract(@mq, 2);
+  .mixin (@i) when (@i =< 1) {
+    &-@{value} {
+      position: @value;
+    }
+  }
+  .mixin(@i);
+  @media (min-width: @size) {
+    &-@{name}-@{value} {
+      position: @value;
+    }
+  }
+}
 
 .@{util_prefix} {
-  &_pos {
-    &_rel {
-      position: relative !important;
-    }
-    &_abs {
-      position: absolute !important;
-    }
-    &_static {
-      position: static !important;
-    }
-    &_fixed {
-      position: fixed !important;
-    }
+  &-pos {
+    .mixin-pos-display(relative);
+    .mixin-pos-display(absolute);
+    .mixin-pos-display(fixed);
+    .mixin-pos-display(static);
+  }
+}
 
-    &_align {
-      &_top {
+.@{util_prefix} {
+  &-pos {
+    &-align {
+      &-top {
         vertical-align: top !important;
       }
-      &_middle {
+      &-middle {
         vertical-align: middle !important;
       }
-      &_bottom {
+      &-bottom {
         vertical-align: bottom !important;
       }
     }

@@ -1,4 +1,4 @@
-.mixin_gradient_v(@startColor, @endColor) {
+.mixin-gradient-v(@startColor, @endColor) {
   background: @startColor;
   background: -webkit-gradient(linear, left top, left bottom, from(@startColor), to(@endColor));
   background: -webkit-linear-gradient(top, @startColor, @endColor);
@@ -6,7 +6,7 @@
   background: -ms-linear-gradient(top, @startColor, @endColor);
   background: -o-linear-gradient(top, @startColor, @endColor);
 }
-.mixin_gradient_h(@startColor, @endColor) {
+.mixin-gradient-h(@startColor, @endColor) {
   background: @startColor;
   background: -webkit-gradient(linear, left top, right top, from(@startColor), to(@endColor));
   background: -webkit-linear-gradient(left, @startColor, @endColor);
@@ -14,7 +14,7 @@
   background: -ms-linear-gradient(left, @startColor, @endColor);
   background: -o-linear-gradient(left, @startColor, @endColor);
 }
-.mixin_gradient_a(@startColor, @endColor) {
+.mixin-gradient-a(@startColor, @endColor) {
   background: -webkit-linear-gradient(315deg, @startColor, @endColor);
   background: -moz-linear-gradient(315deg, @startColor, @endColor);
   background: -ms-linear-gradient(315deg, @startColor, @endColor);

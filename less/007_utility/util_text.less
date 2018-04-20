@@ -4,20 +4,20 @@
   @name:   extract(@mq, 1);
   @size:   extract(@mq, 2);
   .mixin (@i) when (@i =< 1) {
-    &_@{value} {
+    &-@{value} {
       text-align: @value;
     }
   }
   .mixin(@i);
   @media (min-width: @size) {
-    &_@{name}_@{value} {
+    &-@{name}-@{value} {
       text-align: @value;
     }
   }
 }
 
 .@{util_prefix} {
-  &_text {
+  &-text {
     .mixin-mq-text-align(left);
     .mixin-mq-text-align(center);
     .mixin-mq-text-align(right);
@@ -26,38 +26,38 @@
 }
 
 .@{util_prefix} {
-  &_text {
+  &-text {
 
-    &_underline {
+    &-underline {
       text-decoration: underline !important;
     }
-    &_uppercase {
+    &-uppercase {
       text-transform: uppercase !important;
     }
-    &_lowercase {
+    &-lowercase {
       text-transform: lowercase !important;
     }
-    &_capitalize {
+    &-capitalize {
       text-transform: capitalize !important;
     }
 
-    &_bold {
+    &-bold {
       font-weight: 700 !important;
     }
-    &_medium {
+    &-medium {
       font-weight: 500 !important;
     }
-    &_normal {
+    &-normal {
       font-weight: 400 !important;
     }
-    &_light {
+    &-light {
       font-weight: 300 !important;
     }
-    &_fine {
+    &-fine {
       font-weight: 100 !important;
     }
 
-    &_italic {
+    &-italic {
       font-style: italic !important;
     }
 
