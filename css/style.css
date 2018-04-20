@@ -359,7 +359,7 @@ p {
 /*///////////////////////////////////////////////*/
 /*                    UTILITIES                  */
 /*///////////////////////////////////////////////*/
-/**********  DISPLAY UTILTY  **********/
+/**********  DISPLAY UTILITY  **********/
 .u-dis-none {
   display: none !important;
 }
@@ -528,7 +528,7 @@ p {
     display: inline-flex !important;
   }
 }
-/**********  POSITION UTILTY  **********/
+/**********  POSITION UTILITY  **********/
 .u-pos-relative {
   position: relative !important;
 }
@@ -650,7 +650,7 @@ p {
 .u-pos-align-bottom {
   vertical-align: bottom !important;
 }
-/**********  COLOR UTILTY  **********/
+/**********  COLOR UTILITY  **********/
 .u-color-primary {
   color: #73FE73 !important;
 }
@@ -1119,7 +1119,7 @@ p {
 .u-color-hover-link:hover {
   color: #13c8e9 !important;
 }
-/**********  BACKGROUND UTILTY  **********/
+/**********  BACKGROUND UTILITY  **********/
 .u-bg-primary {
   background: #73FE73 !important;
 }
@@ -1588,7 +1588,7 @@ p {
 .u-bg-hover-link:hover {
   background: #13c8e9 !important;
 }
-/**********  TEXT UTILTY  **********/
+/**********  TEXT UTILITY  **********/
 .u-text-left {
   text-align: left !important;
 }
@@ -1731,7 +1731,7 @@ p {
 .u-text-italic {
   font-style: italic !important;
 }
-/**********  GRADIENT UTILTY  **********/
+/**********  GRADIENT UTILITY  **********/
 .u-grad-primary-primary,
 .u-grad-a-primary-primary {
   background: -webkit-linear-gradient(315deg, #73FE73, #73FE73) !important;
@@ -2560,7 +2560,7 @@ p {
   background: -ms-linear-gradient(left, #FEE05C, #FEE05C) !important;
   background: -o-linear-gradient(left, #FEE05C, #FEE05C) !important;
 }
-/**********  WIDTH UTILTY  **********/
+/**********  WIDTH UTILITY  **********/
 .u-width-1 {
   width: 20px !important;
   max-width: 20px !important;
@@ -2671,7 +2671,7 @@ p {
   max-width: 100% !important;
   min-width: 100% !important;
 }
-/**********  HEIGHT UTILTY  **********/
+/**********  HEIGHT UTILITY  **********/
 .u-height-1 {
   height: 20px !important;
   max-height: 20px !important;
@@ -2772,7 +2772,7 @@ p {
   max-height: 100% !important;
   min-height: 100% !important;
 }
-/**********  OPACITY UTILTY  **********/
+/**********  OPACITY UTILITY  **********/
 .u-opacity-0 {
   -webkit-opacity: 0 !important;
   -moz-opacity: 0 !important;
@@ -2839,7 +2839,7 @@ p {
   -o-opacity: 1 !important;
   opacity: 1 !important;
 }
-/**********  Z-INDEX UTILTY  **********/
+/**********  Z-INDEX UTILITY  **********/
 .u-z-index-0 {
   z-index: 0 !important;
 }
@@ -2873,7 +2873,7 @@ p {
 .u-z-index-10 {
   z-index: 1000 !important;
 }
-/**********  LINE CLAMP UTILTY  **********/
+/**********  LINE CLAMP UTILITY  **********/
 .u-line-clamp-ellipsis {
   overflow: hidden !important;
   text-overflow: ellipsis !important;
@@ -2903,14 +2903,14 @@ p {
   -webkit-line-clamp: 4 !important;
   -webkit-box-orient: vertical !important;
 }
-/**********  WORD WRAP UTILTY  **********/
+/**********  WORD WRAP UTILITY  **********/
 .u-wrap {
   white-space: normal !important;
 }
 .u-nowrap {
   white-space: nowrap !important;
 }
-/**********  OVERFLOW UTILTY  **********/
+/**********  OVERFLOW UTILITY  **********/
 .u-overflow-hidden {
   overflow: hidden !important;
 }
@@ -2920,7 +2920,7 @@ p {
 .u-overflow-scroll {
   overflow: scroll !important;
 }
-/**********  CURSOR UTILTY  **********/
+/**********  CURSOR UTILITY  **********/
 .u-cursor-pointer {
   cursor: pointer !important;
 }
@@ -2936,7 +2936,7 @@ p {
 .u-cursor-grabbing {
   cursor: grabbing !important;
 }
-/**********  BORDER UTILTY  **********/
+/**********  BORDER UTILITY  **********/
 .u-border-primary {
   border-color: #73FE73 !important;
 }
@@ -3495,7 +3495,7 @@ p {
 .u-border-b-0 {
   border-bottom: 0px !important;
 }
-/**********  BORDER RADIUS UTILTY  **********/
+/**********  BORDER RADIUS UTILITY  **********/
 .u-border-radius-0 {
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
@@ -3568,7 +3568,7 @@ p {
   -o-border-radius: 500px !important;
   border-radius: 500px !important;
 }
-/**********  SELF TRANSLATE UTILTY  **********/
+/**********  SELF TRANSLATE UTILITY  **********/
 .u-translate-self-x {
   -webkit-transform: translateX(-50%) !important;
   -moz-transform: translateX(-50%) !important;
@@ -3581,7 +3581,7 @@ p {
   -o-transform: translateY(-50%) !important;
   transform: translateY(-50%) !important;
 }
-/**********  MARGIN OFFSET UTILTY  **********/
+/**********  MARGIN OFFSET UTILITY  **********/
 .u-mt-offset-5 {
   margin-top: -5rem !important;
 }
@@ -3612,7 +3612,7 @@ p {
 .u-mb-offset-1 {
   margin-top: 1rem !important;
 }
-/**********  HOVER GROW UTILTY  **********/
+/**********  HOVER GROW UTILITY  **********/
 .u-hover-grow-1,
 .u-hover-grow-2,
 .u-hover-grow-3,
@@ -3692,7 +3692,7 @@ p {
   -o-transform: scale(1.25) !important;
   transform: scale(1.25) !important;
 }
-/**********  DROP SHADOW UTILTY  **********/
+/**********  DROP SHADOW UTILITY  **********/
 .u-shadow-0 {
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
