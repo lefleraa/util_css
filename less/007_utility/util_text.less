@@ -1,5 +1,5 @@
-.mixin_mq_text_align(@value; @i: length(@mq-list)) when (@i > 0) {
-  .mixin_mq_text_align(@value, @i - 1);
+.mixin-mq-text-align(@value; @i: length(@mq-list)) when (@i > 0) {
+  .mixin-mq-text-align(@value, @i - 1);
   @mq:     extract(@mq-list, @i);
   @name:   extract(@mq, 1);
   @size:   extract(@mq, 2);
@@ -18,10 +18,10 @@
 
 .@{util_prefix} {
   &_text {
-    .mixin_mq_text_align(left);
-    .mixin_mq_text_align(center);
-    .mixin_mq_text_align(right);
-    .mixin_mq_text_align(justify);
+    .mixin-mq-text-align(left);
+    .mixin-mq-text-align(center);
+    .mixin-mq-text-align(right);
+    .mixin-mq-text-align(justify);
   }
 }
 
