@@ -4,12 +4,12 @@
   @name:   extract(@mq, 1);
   @value:  extract(@mq, 2);
   &-@{name} {
-    border-color: @value;
+    border-color: @value !important;
   }
   &-hover-@{name} {
     .mixin-transition(all 0.1s ease-in-out);
     &:hover {
-      border-color: @value;
+      border-color: @value !important;
     }
   }
 }
@@ -32,7 +32,7 @@
   .mixin-border-width-array(@property, @i - 1);
   @width: extract(@border-width-list, @i);
   &-@{width} {
-    @{property}: ~"@{width}px";
+    @{property}: ~"@{width}px" !important;
   }
 }
 

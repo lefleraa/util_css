@@ -5,13 +5,13 @@
   @size:   extract(@mq, 2);
   .mixin (@i) when (@i =< 1) {
     &-@{value} {
-      position: @value;
+      position: @value !important;
     }
   }
   .mixin(@i);
   @media (min-width: @size) {
     &-@{name}-@{value} {
-      position: @value;
+      position: @value !important;
     }
   }
 }

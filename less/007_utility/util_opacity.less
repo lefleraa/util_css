@@ -1,40 +1,15 @@
+.mixin-opacity-array(@i: length(@z-index-list)) when (@i > 0) {
+  .mixin-opacity-array(@i - 1);
+  @z-index: extract(@z-index-list, @i);
+  @name:    extract(@z-index, 1);
+  @value:   extract(@z-index, 2);
+  &-@{name} {
+    .mixin-opacity(@value) !important;
+  }
+}
 
 .@{util_prefix} {
   &-opacity {
-    
-    &-0 {
-      .mixin-opacity(@opacity-0) !important;
-    }
-    &-1 {
-      .mixin-opacity(@opacity-1) !important;
-    }
-    &-2 {
-      .mixin-opacity(@opacity-2) !important;
-    }
-    &-3 {
-      .mixin-opacity(@opacity-3) !important;
-    }
-    &-4 {
-      .mixin-opacity(@opacity-4) !important;
-    }
-    &-5 {
-      .mixin-opacity(@opacity-5) !important;
-    }
-    &-6 {
-      .mixin-opacity(@opacity-6) !important;
-    }
-    &-7 {
-      .mixin-opacity(@opacity-7) !important;
-    }
-    &-8 {
-      .mixin-opacity(@opacity-8) !important;
-    }
-    &-9 {
-      .mixin-opacity(@opacity-9) !important;
-    }
-    &-10 {
-      .mixin-opacity(@opacity-10) !important;
-    }
-
+    .mixin-opacity-array();
   }
 }

@@ -4,12 +4,12 @@
   @name:   extract(@mq, 1);
   @value:  extract(@mq, 2);
   &-@{name} {
-    color: @value;
+    color: @value !important;
   }
   &-hover-@{name} {
     .mixin-transition(all 0.1s ease-in-out);
     &:hover {
-      color: @value;
+      color: @value !important;
     }
   }
 }

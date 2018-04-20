@@ -5,13 +5,13 @@
   @size:   extract(@mq, 2);
   .mixin (@i) when (@i =< 1) {
     &-@{value} {
-      text-align: @value;
+      text-align: @value !important;
     }
   }
   .mixin(@i);
   @media (min-width: @size) {
     &-@{name}-@{value} {
-      text-align: @value;
+      text-align: @value !important;
     }
   }
 }
