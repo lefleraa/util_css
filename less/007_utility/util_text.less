@@ -25,6 +25,22 @@
   }
 }
 
+.mixin-fw-array(@i: length(@fw-list)) when (@i > 0) {
+  .mixin-fw-array(@i - 1);
+  @fw:    extract(@fw-list, @i);
+  @name:  extract(@fw, 1);
+  @value: extract(@fw, 2);
+  &-@{name} {
+    font-weight: @value;
+  }
+}
+
+.@{util_prefix} {
+  &-text {
+    .mixin-fw-array();
+  }
+}
+
 .@{util_prefix} {
   &-text {
 
@@ -41,21 +57,21 @@
       text-transform: capitalize !important;
     }
 
-    &-bold {
-      font-weight: 700 !important;
-    }
-    &-medium {
-      font-weight: 500 !important;
-    }
-    &-normal {
-      font-weight: 400 !important;
-    }
-    &-light {
-      font-weight: 300 !important;
-    }
-    &-fine {
-      font-weight: 100 !important;
-    }
+    // &-bold {
+    //   font-weight: 700 !important;
+    // }
+    // &-medium {
+    //   font-weight: 500 !important;
+    // }
+    // &-normal {
+    //   font-weight: 400 !important;
+    // }
+    // &-light {
+    //   font-weight: 300 !important;
+    // }
+    // &-fine {
+    //   font-weight: 100 !important;
+    // }
 
     &-italic {
       font-style: italic !important;

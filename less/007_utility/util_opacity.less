@@ -1,8 +1,8 @@
-.mixin-opacity-array(@i: length(@z-index-list)) when (@i > 0) {
+.mixin-opacity-array(@i: length(@opacity-list)) when (@i > 0) {
   .mixin-opacity-array(@i - 1);
-  @z-index: extract(@z-index-list, @i);
-  @name:    extract(@z-index, 1);
-  @value:   extract(@z-index, 2);
+  @opacity: extract(@opacity-list, @i);
+  @name:    extract(@opacity, 1);
+  @value:   extract(@opacity, 2);
   &-@{name} {
     .mixin-opacity(@value) !important;
   }

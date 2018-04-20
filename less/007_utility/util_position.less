@@ -1,5 +1,5 @@
-.mixin-pos-display(@value; @i: length(@mq-list)) when (@i > 0) {
-  .mixin-pos-display(@value, @i - 1);
+.mixin-mq-pos(@value; @i: length(@mq-list)) when (@i > 0) {
+  .mixin-mq-pos(@value, @i - 1);
   @mq:     extract(@mq-list, @i);
   @name:   extract(@mq, 1);
   @size:   extract(@mq, 2);
@@ -18,10 +18,10 @@
 
 .@{util_prefix} {
   &-pos {
-    .mixin-pos-display(relative);
-    .mixin-pos-display(absolute);
-    .mixin-pos-display(fixed);
-    .mixin-pos-display(static);
+    .mixin-mq-pos(relative);
+    .mixin-mq-pos(absolute);
+    .mixin-mq-pos(fixed);
+    .mixin-mq-pos(static);
   }
 }
 
