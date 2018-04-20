@@ -1,0 +1,21 @@
+.mixin-shadow-array(@i: length(@shadow-list)) when (@i > 0) {
+  .mixin-shadow-array(@i - 1);
+  @item:  extract(@shadow-list, @i);
+  @name:  extract(@item, 1);
+  @value: extract(@item, 2);
+  &-@{name} {
+    .mixin-shadow(@value) !important;
+  }
+  &-hover-@{name} {
+    .mixin-transition(all 0.1s ease-in-out);
+    &:hover {
+      .mixin-shadow(@value) !important;
+    }
+  }
+}
+
+.@{util_prefix} {
+  &-shadow {
+    .mixin-shadow-array();
+  }
+}
