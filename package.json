@@ -9,8 +9,7 @@
     "gulp-less": "^4.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^3.0.0",
-    "pump": "^3.0.0",
-    "template-package.json": "^0.0.0"
+    "pump": "^3.0.0"
   },
   "devDependencies": {},
   "scripts": {

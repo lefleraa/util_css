@@ -6,45 +6,38 @@ var clean  = require('gulp-clean-css');
 
 gulp.task('default',
   [
-    'less',
-    'minify'
+    'build-css'
   ], function() {}
 );
 
-gulp.task('less', function (cb) {
+gulp.task('build-css', function (cb) {
   var compile_less = function()
   {
-    gulp
-      .src('./less/000_compile/_master_compile.less')
-      .pipe(less({
-        paths: [ path.join(__dirname, 'less', 'includes') ]
-      }))
-      .pipe(rename('style.css'))
-      .pipe(gulp.dest('./css/'));
+    var compile_files = {
+      './less/000_compile/_master_compile.less' : 'style.css',
+      './less/000_compile/_anim_compile.less'   : 'anim.css',
+      './less/000_compile/_utility_compile.less': 'util.css'
+    };
 
-    gulp
-      .src('./less/000_compile/_anim_compile.less')
-      .pipe(less({
-        paths: [ path.join(__dirname, 'less', 'includes') ]
-      }))
-      .pipe(rename('anim.css'))
-      .pipe(gulp.dest('./css/'));
-    gulp
-      .src('./less/000_compile/_utility_compile.less')
-      .pipe(less({
-        paths: [ path.join(__dirname, 'less', 'includes') ]
-      }))
-      .pipe(rename('util.css'))
-      .pipe(gulp.dest('./css/'));
+    for ( var file in compile_files ) {
+
+      gulp
+        .src(file)
+        .pipe(less({
+          paths: [ path.join(__dirname, 'less', 'includes') ]
+        }))
+        .pipe(rename(compile_files[file]))
+        .pipe(gulp.dest('./css/'));
+
+      gulp.src('./css/' + compile_files[file])
+        .pipe(clean({compatibility: 'ie8'}))
+        .pipe(rename({
+            suffix: '.min'
+        }))
+        .pipe(gulp.dest('./css/'));
+
+    };
+
   };
   return compile_less();
-});
-
-gulp.task('minify', () => {
-  return gulp.src('./css/*.css')
-    .pipe(clean({compatibility: 'ie8'}))
-    .pipe(rename({
-        suffix: '.min'
-    }))
-    .pipe(gulp.dest('./css/'));
 });
