@@ -2,13 +2,6 @@
   "name": "util.css",
   "version": "1.0.0",
   "description": "A set of utility classes to save you time.",
-  "main": "gulpfile.js",
-  "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.9.3",
-    "gulp-less": "^4.0.0",
-    "gulp-rename": "^1.2.2"
-  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/lefleraa/util_css/issues"
   },
-  "homepage": "https://github.com/lefleraa/util_css#readme"
+  "homepage": "https://github.com/lefleraa/util_css#readme",
+  "main": "index.js",
+  "keywords": [
+    "css"
+  ]
 }
