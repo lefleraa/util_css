@@ -35,7 +35,7 @@
   .mixin-border-width-array(@property, @i - 1);
   @width: extract(@border-width-list, @i);
   &-@{width} {
-    @{property}: solid ~"@{width}px" @color-gray-lighter !important;
+    @{property}: solid ~"@{width}px" @color-border !important;
   }
 }
 
